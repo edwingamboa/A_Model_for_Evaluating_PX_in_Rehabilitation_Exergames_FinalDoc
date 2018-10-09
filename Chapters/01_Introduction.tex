@@ -1,0 +1,72 @@
+\chapter{Introduction} % Chapter title
+\label{ch:intro}
+
+\ac{PX} is one of the most significant factors in determining the success of digital games in terms of aspects such as fun, flow, enjoyment, engagement, satisfaction, pleasure and playability. \ac{PX} denotes the personal experience of playing digital games, thus it involves subjective perceptions of players \autocite{Wiemeyer2016,Chu2011}. The goal of evaluating \ac{PX} is to improve interaction between players and games. 
+Exergames are serious digital games that promote physical exercising \autocite{PirovanoAdvisor2012} employing body movements from players, i.e., physical effort, to enable interaction \autocite{Mueller2015}. Exergames have been designed for rehabilitation purposes \autocite{Brokaw2015,Hernandez2013,Lewis2012,Burke2009}, in that case, these games are known as rehabilitation exergames \autocite{Mader2012}. A rehabilitation exergame supports physical rehabilitation therapies while providing a compelling experience to players/patients. It is intended to improve patients’ motivation towards their rehabilitation therapy, while assisting patients in their rehabilitation process.
+Rehabilitation exergames have particular constraints imposed by their therapeutic goal.
+\ac{PX} evaluations should be conducted along the development life cycle of a rehabilitation exergame to assess its capability to provide a compelling and engaging experience to patients; and be an effective tool in a rehabilitation process. Those evaluations might concentrate on aspects such as movement mapping correctness, rehabilitation goals achievement, motivation, personalisation, flow, challenge, ease of use and immersion. Also, evaluators may consider limitations imposed by clinical contexts and player pathologies, since those may affect an evaluation completion. Consequently, a \ac{PX} evaluation may suppose using or developing non-traditional evaluation aspects, methods and instruments. However, there is a lack of a standardised methodology to evaluate \ac{PX} in rehabilitation exergames.
+
+This document presents the development of a \ac{PX} evaluation model for rehabilitation exergames. The remaining of the document is organised as follows: first, this chapter presents the problem statement, justification and objectives of the project. Then, \autoref{ch:referenceFramework} presents the reference framework of the project and the state of the art of the \ac{PX} research field. After that, \autoref{ch:characterising} presents a qualitative study conducted to identify characteristics, constraints and an approach to characterise rehabilitation exergames regarding \ac{PX}. Then, \autoref{ch:aspects} describes relevant aspects, methods and instruments to evaluate \ac{PX} in rehabilitation exergames and the process carried out to identify them. After that, \autoref{ch:model} proposes a comprehensive \ac{PX} model for rehabilitation exergames that integrates current research and the findings of the mentioned studies. Additionally, \autoref{ch:methodology} presents a methodology to evaluate \ac{PX} in rehabilitation exergames based on the proposed model. Then, \autoref{ch:questionnaire} presents a standard proposal to develop \ac{PX} evaluation questionnaires. Finally, \autoref{ch:playtherapy} presents a case study in which the findings of this project were employed to evaluate a collection of rehabilitation exergames developed by the Multimedia and Vision research group from \textit{Universidad del Valle} and the Evaristo Garc\'ia University Hospital from Cali Colombia.
+
+%----------------------------------------------------------------------------------------
+\section{Problem Statement}
+
+% Concentration in methods (how, when, which) (no aspects, no instruments) -> Integrative model
+% criteria to select
+% Evaluation based on evaluator xp
+% when: planning evlaution and when comparing evaluations
+
+\ac{PX} denotes the personal experience of playing digital games, thus it is a subjective perception of players \autocite{Wiemeyer2016,Chu2011}. Evaluating \ac{PX} consists in the observation and analysis of the interaction between players and games, applying methods employed in different fields, including usability, psychology, play testing \autocite{Wiemeyer2016}, gameplay metrics \autocite{Drachen2013} and physiological evaluation \autocite{Nacke2015}. A \ac{PX} evaluation might be useful to evaluate the effectiveness of a digital game, since it allows assessing aspects such as players motivation, enjoyment or satisfaction. Therefore, \ac{PX} evaluation is a critical process to be included within the game development life cycle \autocite{Bernhaupt2015,McAllister2015,desurvire_methods_2013,Nacke2009}.
+
+Additionally, rehabilitation exergames have particular constraints imposed by the use of non-traditional devices, e.g., motion sensors, to enable interaction; patients with special needs \autocite{Pirovano2016,Wiemeyer2015,Sinclair2007,Ni2014,Cameirao2010,Nijholt2008}; and rehabilitation environments, e.g., people such as physiotherapists may intervene during therapies \autocite{Wiemeyer2015,Nijholt2008}. 
+
+Nevertheless, there is no general agreement about the \ac{PX} concept and the evaluation process is not standardised \autocite{Yanez-Gomez2017,Wiemeyer2016,Mueller2015}. Thus, \ac{PX} is evaluated based on evaluators experience and criteria, resulting in the difficulty to analyse and compare obtained results, and to replicate a certain evaluation. Also, evaluators do not consider the constraints of rehabilitation exergames and concentrate on aspects such as motivation, enjoyment or usability \autocite{Brokaw2015,Ni2014,Cameirao2010,jansen2013serious}.
+
+Therefore, the process of evaluating \ac{PX} in rehabilitation exergames should be formalised. Thus, the research question to be addressed along this project is:
+
+\begin{center} 
+\emph{How can \ac{PX} evaluation be standardised in rehabilitation exergames?}
+\end{center} 
+
+%----------------------------------------------------------------------------------------
+
+\section{Project Justification}\label{sec:problemJustfication}
+% Comparative results
+% evaluation planning objective
+
+The purpose of digital games is to provide a fun and engaging experience to players \autocite{Moosajee,Zammitto2014}. Meanwhile, serious games should provide a positive experience while achieving an additional goal; e.g., to train, educate or support a certain process \autocite{Wiemeyer2016}. Therefore, evaluating \ac{PX} has become a crucial process to be integrated along the game development life cycle since it allows assessing the effectiveness of a game to provide the expected experience \autocite{Bernhaupt2015,McAllister2015,desurvire_methods_2013,Nacke2009}. In this context, research fields like \ac{GUR} have evolved in the past years. \ac{GUR} encompasses concepts, methods, tools and techniques aimed to reach an optimal quality of \ac{PX}; i.e., create more compelling gameplay experiences \autocite{Moosajee,Nacke2015,Wiemeyer2016,Drachen2013}.
+
+An integral evaluation of rehabilitation exergames should consider particular constraints. These constraints are mainly related to the use of motion sensors as mean of interaction \autocite{Wiemeyer2015,Nijholt2008} and the involved rehabilitation purpose. The effectiveness of a rehabilitation exergame may be evaluated in terms of its capability to motivate patients and assist their rehabilitation therapy. A model for evaluating \ac{PX} in rehabilitation exergames, may contribute to address the lack of standardisation of this process and may be employed as a tool for validating the effectiveness objectively, guiding evaluators while performing an evaluation.
+
+
+%----------------------------------------------------------------------------------------
+%\section{Scope of Project}\label{sec:scopeOfProposal}
+%This project is delimited to ...
+
+%The deliverable of this project is ...
+%----------------------------------------------------------------------------------------
+
+\section{Objectives}\label{sec:objectives}
+
+%------------------------------------------------
+\subsection{General Objective} 
+Develop a \ac{PX} evaluation model for rehabilitation exergames.
+
+%------------------------------------------------
+\subsection{Specific Objectives}
+\begin{enumerate}
+\item Identify characteristics of rehabilitation exergames.
+\item Define a set of aspects to be validated during a \ac{PX} evaluation in rehabilitation exergames.
+\item Design a standard to create \ac{PX} evaluation questionnaires for rehabilitation exergames.
+\item Design a procedure for \ac{PX} evaluation in rehabilitation exergames.
+\item Design a model of \ac{PX} evaluation in rehabilitation exergames integrating identified characteristics, aspects, questionnaires standard and procedure.
+\item Validate the model using a rehabilitation exergame.
+\end{enumerate}
+%------------------------------------------------
+%\subsection{Expected Results}
+
+
+%----------------------------------------------------------------------------------------
+
+
+

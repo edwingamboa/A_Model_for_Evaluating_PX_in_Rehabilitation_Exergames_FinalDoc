@@ -1,0 +1,122 @@
+% Table of Contents - List of Tables/Figures/Listings and Acronyms
+
+\refstepcounter{dummy}
+
+\pdfbookmark[1]{\contentsname}{tableofcontents} % Bookmark name visible in a PDF viewer
+
+\setcounter{tocdepth}{2} % Depth of sections to include in the table of contents - currently up to subsections
+
+\setcounter{secnumdepth}{3} % Depth of sections to number in the text itself - currently up to subsubsections
+
+\manualmark
+\markboth{\spacedlowsmallcaps{\contentsname}}{\spacedlowsmallcaps{\contentsname}}
+\tableofcontents 
+\automark[section]{chapter}
+\renewcommand{\chaptermark}[1]{\markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\enspace\spacedlowsmallcaps{#1}}}
+
+\clearpage
+
+\begingroup 
+\let\clearpage\relax
+\let\cleardoublepage\relax
+\let\cleardoublepage\relax
+
+%----------------------------------------------------------------------------------------
+%	List of Figures
+%----------------------------------------------------------------------------------------
+
+\refstepcounter{dummy}
+%\addcontentsline{toc}{chapter}{\listfigurename} % Uncomment if you would like the list of figures to appear in the table of contents
+\pdfbookmark[1]{\listfigurename}{lof} % Bookmark name visible in a PDF viewer
+
+\listoffigures
+
+\vspace*{8ex}
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	List of Tables
+%----------------------------------------------------------------------------------------
+
+\refstepcounter{dummy}
+%\addcontentsline{toc}{chapter}{\listtablename} % Uncomment if you would like the list of tables to appear in the table of contents
+\pdfbookmark[1]{\listtablename}{lot} % Bookmark name visible in a PDF viewer
+
+\listoftables
+        
+\vspace*{8ex}
+\newpage
+    
+%----------------------------------------------------------------------------------------
+%	List of Listings
+%---------------------------------------------------------------------------------------- 
+
+%\refstepcounter{dummy}
+%\addcontentsline{toc}{chapter}{\lstlistlistingname} % Uncomment if you would like the list of listings to appear in the table of contents
+
+%\pdfbookmark[1]{\lstlistlistingname}{lol} % Bookmark name visible in a PDF viewer
+
+%\lstlistoflistings 
+
+%\vspace*{8ex}
+%\newpage
+       
+%----------------------------------------------------------------------------------------
+%	Acronyms
+%----------------------------------------------------------------------------------------
+
+\refstepcounter{dummy}
+%\addcontentsline{toc}{chapter}{Acronyms} % Uncomment if you would like the acronyms to appear in the table of contents
+\pdfbookmark[1]{Acronyms}{acronyms} % Bookmark name visible in a PDF viewer
+
+\markboth{\spacedlowsmallcaps{Acronyms}}{\spacedlowsmallcaps{Acronyms}}
+
+\chapter*{Acronyms}
+
+\acrodef{GEQ2}[GEQ]{Game Engagement Questionnaire}
+
+\begin{acronym}[UML]
+\acro{PREG}{Physical Rehabilitation Exergame}
+\acro{PX}{Player Experience}
+\acro{UX}{User Experience}
+\acro{GUR}{Game User Research}
+\acro{HCI}{Human Computer Interaction}
+\acro{RITE}{Rapid Iterative Testing and Evaluation}
+\acro{EEG}{Electro-encephalography}
+\acro{EMG}{Electro-myography}
+\acro{EDA}{Electro-dermal Activity}
+\acro{HR}{Heart Rate}
+\acro{MDA}{Mechanics-Dynamics-Aesthetics}
+\acro{SCT}{Social Cognitive Theory}
+\acro{ISCAL}{Immersion, Scientificalness, Competitiveness, Adaptibility and Learning}
+\acro{4LM}{Four-lens Model}
+\acro{PPAX}{Play Patterns and Experience}
+\acro{ISO}{International Organization for Standardization}
+\acro{IEC}{International Electrotechnical Commission}
+\acro{ITU}{International Telecommunication Union}
+\acro{CEN}{European Committee for Standardization}
+\acro{ETSI}{European Telecommunications Standards Institute}
+\acro{ICT}{Information and Communications Technologies}
+\acro{QoS}{Quality of Service}
+\acro{QoE}{Quality of Experience}
+\acro{CEGEQ}{Core Elements of Gaming Experience Questionnaire}
+\acro{SPGQ}{Social Presence in Gaming Questionnaire}
+\acro{GEQ}[GEQ]{Game Experience Questionnaire\acroextra{/Game Engagement Questionnaire}}
+\acro{IMP}{Integrated Model of Player Experience}
+\acro{AI}{Artificial Intelligence}
+\acro{ICONTEC}{Instituto Colombiano de Normas T\'ecnicas y Certificaci\'on}
+\acro{MRC}{Medical Research Council}
+\acro{MAS}{Modified Ashworth Scale}
+\acro{VAS}{Visual Analog Scale}
+\acro{FIM}{Functional Independence Measure}
+\acro{FLACC}{Face, Legs, Activity, Cry, Consolability}
+\acro{GDD}{Game Design Document}
+\acro{APTA}{American Physical Therapy Association}
+\acro{ICF}{International Classification of Functioning, Disability and Health}
+\acro{GUI}{Graphic User Interface}
+\end{acronym}  
+                   
+\endgroup
+
+\cleardoublepage
