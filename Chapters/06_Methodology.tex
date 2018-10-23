@@ -1,43 +1,6 @@
-\chapter{A Methodology to Evaluate PX in \acp{PREG}}
-\label{ch:methodology}
-%%% Introduction (Explain and contextualise objective)
-%After proposing a PX Model, evaluators will benefit having a methodology that guides them in the process of planning, executing, analysing and reporting an evaluation. This, methodology also guides on how to use the model for evaluation purposes.
-Evaluating \ac{PX} in \acp{PREG} requires using a methodology that matches the model that we presented in the previous section. An evaluation may cover one or more moments and layers of abstraction of \ac{PX}. Also, the aspects to be assessed depend on the moments and layers being evaluated. Evaluators should select the adequate methods and instruments to evaluate those aspects properly. Lastly, such methodology may enable iterative evaluations since \ac{PX} evolves after each interaction of a player with a game. For instance, to evaluate the impact of a \ac{PREG} on a patient's rehabilitation process, an evaluator should assess the \textit{player/patient} layer throughout the three moments of \ac{PX}, during a whole treatment. The evaluator should identify relevant aspects to evaluate such as range of motion, which can be assessed using goniometry. Those aspects may be measured before, during and after several interaction episodes.
+\chapter{PX evaluation web application}
+\label{ch:web_app}
 
-In this section, we present a methodology that attempts to guide evaluators in the process of selecting evaluation aspects, methods and instruments to assess \ac{PX} in \acp{PREG}. This methodology is intended to be used along the whole development life cycle. It can be used iteratively to refine the outcomes of each stage after each evaluation. The stages of our methodology are illustrated in \autoref{fig:PXEvaluationMethodology} and detailed below.
-
-\begin{figure}[bth]
-\myfloatalign
-{\includegraphics[width=\linewidth]{gfx/methodology/PXEvaluationMethodology}} \quad
-\caption{Stages of the proposed methodology}\label{fig:PXEvaluationMethodology}
-\end{figure}
-
-%PX evaluations methodologies, %How digital games for rehabilitation have been evaluated
-% RioOlarte-- check paper annotations
-
-%Materials and Methods
-%Results from previous chapter????
-
-
-
-
-%%%%Results and discussion - Methodology
-
-% Antecedents in proposed model
-%An iterative methodology composed of a set of stages that considers rehabilitation constraints
-
-
-% stages, check paper
-
-
-%table mapping methods, instruments, aspects???
-
-
-%Ideas in progress...
-%%%Conclusions and recommendations for the objective
-% check paper
-
-\section{PX evaluation web application}
 A web application to manage \ac{PX} evaluations was developed using the Django framework \footnote{Django Project: \url{www.djangoproject.com}} (See \autoref{fig:dashboardApp}). The application contains ten modules that allow registering, updating and listing \ac{PX} evaluations for \acp{PREG} following the methodology presented in this chapter. The \autoref{fig:evaluationApp1} present the view of an evaluation being registered at the application and \autoref{fig:evaluationApp2} presents its detail view. To aim that, the following features are available:
 
 \begin{enumerate}
@@ -88,7 +51,6 @@ The application was developed using agile practices such as the use of a task-bo
 \caption{Detail view of a \ac{PREG} characterisation at the \ac{PX} evaluation application}\label{fig:characterisingApp}
 \end{figure}
 
-\clearpage
 \section{Conclusion}
 In this chapter, we presented a methodology for evaluating PX in \acp{PREG}. Our proposal is based on the model presented on \autoref{ch:model}; highlighting crucial aspects to be evaluated before, during and after interaction between a patient, a context and a \ac{PREG} occurs. Since the methodology is based on a \ac{PX} model for \acp{PREG}, it allows performing evaluations that meet the constraints that the rehabilitation environment may impose. It requires evaluators to characterise \acp{PREG} considering its therapeutic goal, to define users profile considering its characteristics as patients and analysing the involved rehabilitation environment. Thus, our approach differs from other evaluations in which \acp{PREG}s are evaluated considering only motivation, enjoyment or usability \autocite{Brokaw2015,Burke2009,Cameirao2010,jansen2013serious,Ni2014}.
 
