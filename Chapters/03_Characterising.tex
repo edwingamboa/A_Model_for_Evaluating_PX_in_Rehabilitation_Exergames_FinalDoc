@@ -1,168 +1,71 @@
-\chapter{Characteristics and constraints of \acp{PREG}}
+\chapter{Characteristics and constraints of PREGs}
 \label{ch:characterising}
+Physical rehabilitation therapies include many repetitions of a set of exercises, resulting in undesired effects on patients such as a lack of motivation and worsening condition. Therefore, motivation is a key factor in physical rehabilitation since it may contribute to treatment completion \autocite{Shelton2015}. Thus, conceptualisation and design of games for rehabilitation have become relevant. Digital games have been used and designed for physical rehabilitation purposes as a strategy to motivate patients towards treatments \autocite{Brokaw2015,Burke2009,Hernandez2013,Lewis2012}, those games are called \acp{PREG}. \textcite{Pirovano2016} presented a definition of therapeutic exergames and a methodology for designing them. Also, \textcite{PirovanoAdvisor2012} proposed a set of characteristics of autonomous rehabilitation exergames and guidelines for designing them. Moreover, \textcite{Rego2018} proposed a taxonomy of serious games for rehabilitation based on existing literature. The taxonomy intends to be comprehensive for all kinds of serious rehabilitation games.
 
-To develop a \ac{PX} evaluation model for \acp{PREG}, we should understand what a \ac{PREG} represents and how to characterise it for evaluation purposes considering its therapeutic purpose. In this section, we propose a definition of \acp{PREG} considering that those are exergames, have therapeutic purposes and are used within rehabilitation therapies. Then, we present a set of constraints to consider when evaluating \acp{PREG}. Finally, we propose an approach to characterise \acp{PREG} for evaluation purposes based on the proposed definition and constraints.
+On the other hand, \ac{PX} is one of the most significant factors in determining the success of digital games in terms of fun, flow, enjoyment, engagement, satisfaction, pleasure and playability. However, \ac{PX} is a complex concept that involves different constructs, such as context, game system and players \autocite{Engl2013,Fernandez2008,Nackea2}; and dimensions, such as time and abstraction \autocite{Engl2013,Nackea2}. Additionally, \acp{PREG} should not be evaluated only in terms of motivation; the therapeutic goal related to patients should be included.
+
+However, little is known about how the therapeutic goal of \acp{PREG} may affect \ac{PX} and its evaluation. Understanding the constraints that the therapeutic goal of \acp{PREG} may impose to \ac{PX} is important for evaluators to perform proper evaluations. Also, it may allow \ac{PX} researchers to study \acp{PREG} considering the motivational and therapeutic aspects.
+
+This chapter presents the findings of a qualitative study conducted with four physiotherapists from the Evaristo Garc\'ia University Hospital in Cali Colombia. The objective of this study is to identify characteristics and constraints that evaluators should consider when evaluating \acp{PREG} as a base to build a comprehensive \ac{PX} evaluation model for \acp{PREG}. In \autoref{sec:def_reh_ex}, we present a definition and a set of properties to characterise \acp{PREG}. Then, in \autoref{sec:study_char} the details of the study are presented. In \autoref{sec:constraints}, we describe the obtained findings. In \autoref{sec:discussion_char}, we outline the implications and limitations of our findings. Lastly, we conclude the chapter in \autoref{sec:conclusion_char}.
 
 %-----------------------------------
-\section{Defining \acp{PREG}} % Definition --------------------------
-\label{sec:def_reh_ex}
-\acp{PREG} should be defined considering their nature as exergames, their therapeutic purposes and their use as part of rehabilitation therapies. Below, we study those three aspects and propose a definition for \acp{PREG}.
+\section{Physical Rehabilitation Exergames}\label{sec:def_reh_ex} % Definition------
+\acp{PREG} can be defined considering three main aspects: i) the nature as exergames; ii) the therapeutic purposes; and iii) the use as part of physical rehabilitation therapies. In this section, we introduce these three aspects to propose a definition of \acp{PREG}.
 
-\subsection{Exergames}
+\subsection{Nature as exergames}
 \label{sub:def_ex}
 % Definition
-According to \textcite{Mueller2011}, an exergame is a game that employs body movement to enable player's interaction; i.e., the outcome of the game is determined by the player's physical effort. Also, \textcite{Pirovano2016} defines an exergame as a game built into an exercise structure. This definition implies that the associated exercises should guide the whole game design process. It may be important for \acp{PREG} since exercises are directly related to their therapeutic purpose. Furthermore, \textcite{Sinclair2009}, defines an exergame as a merger of a digital game with exercise equipment, emphasising the role that the interaction devices play in the experience of playing exergames.
+\acp{PREG}' game mechanics should be determined by a set of exercises and movements related to therapeutic goals. An exergame is defined as a game built into an exercise structure \autocite{Pirovano2016}. It is a game that employs body movement to enable player's interaction \autocite{Mueller2011}. Accordingly, the outcome of a game is determined by the player's physical effort. Consequently, a \ac{PREG} is an exergame and its associated exercises should guide the whole game design process. It may be important for \acp{PREG} since exercises are directly related to the therapeutic purpose. Furthermore, an exergame is considered as a merger of a digital game with exercise equipment \autocite{Sinclair2009}, which emphasises the role that the interaction devices play in the experience of playing exergames.
 
-\subsubsection{Exergames Models}
-\label{subsub:eg_models}
-Exergame models allow achieving a comprehensive understanding of what the exergame concept may comprise. Below, we outline three of these models:
-
-\begin{enumerate}
-    \item \emph{The Four Lenses Model}: \textcite{Mueller2011} propose an exertion framework as an attempt to describe how exergames can use technology to create more compelling exergames. This framework is based on the four lenses, as they call them, and is centred on the player's body to understand the interaction. The four lenses allow considering the body in a structured way when designing an exergame.
-    
-    The first lens is \emph{The Responding Body}, which concerns with the internal body reactions before, during and after physical activity. The responding body impacts the design process since it affects interaction; i.e., when a player becomes fatigued or stronger as a consequence of exercise. Thus, the game challenge should adapt to player needs and skills, by controlling or monitoring responding body using physiological methods such as \ac{HR} or \ac{EEG}.
-    
-    The second lens is \emph{The Moving Body}, which corresponds to the re-positioning of the player's body parts during physical activity. Intensity, continuity and variety of the movement can enrich the game experience by providing resources and constraints to the exercise involved in a game.
-    
-    The third lens is \emph{The Sensing Body}, which describes how the player's body senses and experiences the world, including physical and virtual objects involved in a game exercise. Considering the sensing body during design may allow designers to achieve a richer game experience in a hybrid space
-    
-    The fourth lens is \emph{The Relating Body}, which encompasses how players relate to other people and technology. Adding a social layer to a game is key for people to participate in physical activity.
-    
-    Additionally, \textcite{Mueller2011} highlight some characteristics of exergames. First, uncertainty is desirable since it contributes to offering suspense and surprise along the experience. Particularly, game designers should consider that player's exercising brings a degree of uncertainty since his/her body movements are unpredictable. Thus, they should manage the relationship between the programmed uncertainty and the uncertainty arising from the player's exercise. Second, movement awareness contributes to \ac{PX} when exercising. Increasing movement awareness of players; e.g., by providing feedback about energy expenditure; may foster competition among them. While decreasing such awareness will distract the player from discomfort caused by exercising. Third, the player's expression of exertion may arise naturally as in sports. Although such expression does not allow a player to progress along the game, it contributes positively towards \ac{PX}. An exergame may support expression by highlighting players responding body characteristics. Fourth, adding rhythm to the game exertion can benefit aspects such as motor skills acquisition and discomfort dissociation. Fifth, designers should consider that exertion has an associated risk of injuring players in order to avoid a negative \ac{PX}. Finally, exergames have to assist players in understanding the associated exertion. It will enable players to play consciously and safety; e.g., knowing \ac{HR} while jogging allows a player to plan future activity. By mapping physical movements to a virtual world meaningfully is key to support exertion knowledge.
-    
-    \item \emph{\ac{ISCAL} Model}: \textcite{Zhang2011} proposed this model to build a Virtual Network Marathon. The model is based on five constructs: immersion, scientificalness, competitiveness, adaptability and learning. Immersion is the subjective impression of participating in a "realistic" exercise experience. Meanwhile, scientificalness means to perform exercise effectively and to avoid over-exercise; e.g., by including warming up and cool down stages before and after the exercise. Moreover, competitiveness enables players to satisfy their need of “getting better” at something. Adaptability refers to adjusting the game difficulty dynamically according to each player's needs. Finally, learning refers to offering players the opportunity to learn something while participating in the physical activity. \citeauthor{Zhang2011} argue that an exergame should support all constructs in order to provide an engaging experience.
-    
-    \item \emph{Dual Flow Model}: \textcite{Sinclair2007} propose this model due to the two purposes of an exergame: exercising and entertaining. The model comprises two constructs: attractiveness and effectiveness. Attractiveness motivates players to play and to continue playing in the future. It is closely related to fun and may be achieved by offering a balance between game challenges and player skills. That is, maintaining players in the flow zone \autocite{flow}.
-    Effectiveness relates to the exercise involved in a game. An effective exergame has to result in health benefits for players, including fitness or rehabilitation. \citeauthor{Sinclair2007} propose a flow zone associated with the exercise involved in the game. In this case, an exergame has to provide a balance between the intensity of the exercise and the player's skills to perform the said exercise. A physiologically imbalanced exergame results in failure, deterioration or no-benefit for players. To achieve balance, an exergame has to collect feedback form player about fatigue, exercise level and boredom to adjust the challenge level accordingly.
-\end{enumerate}
-
-\subsection{Therapeutic games}
+\subsection{Therapeutic purposes}
 \label{sub:def_therapeutic_g}
-A therapeutic game provides a cognitive or motor training to improve patient's health condition \autocite{Mader2012}. Specifically, a therapeutic exergame has to support the primary and secondary goals of exercises. Primary goals correspond to the movements involved in an exergame. Those are achieved by mapping desired movements into gameplay mechanics. Meanwhile, secondary goals refer to the correctness with which patients perform the expected physical exercises \autocite{Pirovano2016}. Thus, secondary goals differentiate therapeutic exergames form normal exergames, and movement correctness should be ensured when using exergames for therapeutic purposes.
+A therapeutic game provides cognitive or motor training to improve the patient's health condition \autocite{Mader2012}. Specifically, a therapeutic exergame has to support primary and secondary goals related to therapeutic goals. Primary goals correspond to the movements involved in a \ac{PREG}, which are achieved by mapping desired movements into gameplay mechanics. Meanwhile, secondary goals refer to the ability of the patients to perform the expected physical exercises correctly \autocite{Pirovano2016}. Thus, secondary goals differentiate therapeutic exergames from normal exergames, and movement correctness should be ensured when using exergames for therapeutic purposes.
 
 \subsection{Rehabilitation therapy}
 \label{sub:def_rehab_therapy}
 Rehabilitation aims to enable people with disabilities to participate in daily life activities by improving their health status \autocite{Wiemeyer2015}. To regain lost functions, patients must execute repetitive movements correctly \autocite{PirovanoAdvisor2012}. A typical therapy session includes the following tasks and activities:
-
 \begin{enumerate}
-    \item \emph{Configuration and Personalisation}: physiotherapists select correct exercises, establish therapy goals according to patients’ initial diagnosis and schedule therapy sessions.
-    \item \emph{Supervision}: includes \textit{monitoring} correct execution of movements, \textit{providing immediate feedback} to guide patients along therapy sessions, \textit{adapting} patient’s movements and postures according to his/her performance, \textit{extracting physiological and motion data} and \textit{motivating} patients to complete their therapy.
-    \item \emph{Assessment}: physiotherapists should use gathered to \textit{assess} obtained results and \textit{adapt} therapies according to patient’s progress.
+    \item \emph{Configuration and Personalisation}: physiotherapists select correct exercises, establish therapy goals according to patients' initial diagnosis and schedule therapy sessions.
+    \item \emph{Supervision}: includes monitoring the correct execution of movements, providing immediate feedback to guide patients along therapy sessions, adapting patient's movements and postures according to his/her performance, extracting physiological and motion data and motivating patients to complete their therapy.
+    \item \emph{Assessment}: physiotherapists should use gathered data to assess obtained results and adapt therapies according to patient's progress.
 \end{enumerate}
 
-Therefore, we define a \ac{PREG} as follows:\\
+Therefore, a \ac{PREG} can be defined as follows:
 
-\emph{A \ac{PREG} is a therapeutic exergame that assists rehabilitation therapies in one or more tasks.}
+\emph{A \ac{PREG} is a therapeutic exergame that employs body movement and assists rehabilitation therapies in one or more tasks.}
 
-%-----------------------------------
-\section{Materials and methods} % Materials -----------------------------------
-\label{sec:mats_mets_char}
-% Interviews (Include leading questions), observation, (/)
-% Thematic content analysis (for qualitative research) using affinity charts (/)
-% One coder (/)
-% Validation: Review by physiotherapists (/)
-\subsection{Participants}
-We conducted five semi-structured interviews along two sessions. Two physiotherapists participated in both sessions, while a third physiotherapist joined the second session. All physiotherapists belong to the Evaristo Garc\'ia University Hospital in Cali Colombia. The goal of the first session was to characterise the context in which \acp{PREG} are employed. We aimed to identify possible constraints that might limit the evaluation of \ac{PX} for this kind of games. We guided the interview of the first session using the following questions:
-
-\begin{enumerate}
-    \item What kind of patients participate in physical therapies?
-    \item How is the patients' motivation towards physical therapies?
-    \item What factors affect patients' motivation towards physical therapies?
-    \item What activities occur during physical therapy sessions?
-    \item Who participates in physical therapy sessions?
-    \item How long does a therapy session takes?
-    \item What information is collected during therapy sessions?
-    \item How is patients' progress tracked?
-\end{enumerate}
-
-The goal of the second session of interviews was to identify physiotherapists expectations and requirements regarding the use of \acp{PREG}. One of the physiotherapists had been collaborating in the development of a collection of \acp{PREG}. The second interviews were conducted using the following questions.
-
-\begin{enumerate}
-    \item Who can decide if a patient can use a \ac{PREG} as part of his/her therapies?
-    \item How can a \ac{PREG} be used as part of a physical therapy?
-    \item When can a \ac{PREG} be used as part of a physical therapy?
-    \item How do you expect to use \acp{PREG}?
-    \item How do you expect that \acp{PREG} assist patients?
-\end{enumerate}
-
-Both interviews were recorded. We analysed the collected data using the thematic content analysis method \autocite{Burnard2008}. We transcribed all interviews to produce a list of relevant statements. The selected statements were closely related to one or more of the mentioned questions. Then, we assigned a theme to each statement to produce our initial coding framework. After that, we grouped themes to reduce the number of categories. We continued until we obtained four categories for our final coding framework. The final coding framework was shared with one of the physiotherapists to validate that our results represented participants views. The physiotherapist clarified or added information to five statements, this validation did not affect the resulting categories. The conducted study is illustrated in \autoref{fig:constraintsIdentification}.
-
-\begin{figure}[htb]
-\myfloatalign
-{\includegraphics[width=\linewidth]{gfx/characterisation/constraintsIdentification}} \quad
-\caption{Evaluation constraints identification process}\label{fig:constraintsIdentification}
-\end{figure}
-
-%-----------------------------------
-\section{Findings} % Findings -----------------------------------
-\label{sec:findings_char}
-%-----------------------------------
-\subsection{Constraints of evaluating PX in \acp{PREG}} % Constraints -----------------------------------
-\label{sec:constraints}
-
-\acp{PREG} have constraints that evaluators should consider to perform a relevant PX evaluation. Otherwise, the occurrence or completion of such evaluation may be affected. After transcribing interviews, we identified 57 statements regarding possible constraints of \acp{PREG}. After grouping and categorising the statements iteratively, we identified 4 final categories: patient condition (30 statements), rehabilitation context (18 statements), rehabilitation goal (7 statements) and interaction devices (2 statements). The statements regarding the first and second category were repetitive or refer to very similar things.
-
-After analysing the statements and categories. We found that rehabilitation constraints are directly related to the therapeutic purpose of \acp{PREG}. That is, these are related to the rehabilitation environment and goals, the limitations imposed by players' impairments and the use of non-traditional interaction devices. Moreover, each \ac{PREG} may have additional constraints derived from its context of use, which evaluators should identify when planning a \ac{PX} evaluation.
-
-\subsubsection{Rehabilitation goal constraints}
-\label{sec:reh_goal_constraints}
-The effectiveness of a \ac{PREG} has to be evaluated according to its impact on a rehabilitation therapy, i.e., assisting in the achievement of the associated rehabilitation goal and motivating patients towards their therapies. Such evaluation may require clinical tests and instruments and physiotherapists participation. Thus, evaluators should concentrate on aspects associated with movement execution such as amplitude, accuracy or speed to assess rehabilitation goal achievement. Also, they should evaluate aspects like enjoyment or engagement to asses motivation. Those evaluations may occur along the whole development life cycle.
-
-In early development stages, evaluators should concentrate on evaluating if the evaluated \ac{PREG} meets the requirements to achieve its goal when used as part of a therapy. They may assess if the design process is focused on a rehabilitation goal; i.e., if the game mechanics relate directly to a set of movements and the exercises can be configured to personalise the experience according to patients' needs. They must evaluate if the \ac{PREG} can be used by patients safely, assessing aspects such as movement mapping correctness, adaptation capability and configuration capability and correctness. 
-
-Moreover, they should assess the quality of the feedback provided by the exergame. It may give information about rehabilitation progress and exercise correctness. Additionally, evaluators should assure that the \ac{PREG} is playable during the time required by physiotherapists; e.g., 5 to 10 minutes for warming up, 20 for stimulus and 5 for cooling down. Finally, the \ac{PREG}, or an accompanying system, should offer quantitative data about patients overall progress including movement accuracy, success rate, allowing physiotherapists to make decisions based on rehabilitation goal achievement.
-
-\subsubsection{Rehabilitation context constraints}
-\label{sec:reh_context_constraints}
-Evaluators should include patients and physiotherapists to evaluate a \ac{PREG} integrally. Such inclusion may be regulated or limited by constraints imposed by the rehabilitation context. First, patients' opportunity to use a \ac{PREG} on their therapies depend on physiotherapists' criteria. Thus, \acp{PREG} would meet physiotherapists' needs and expectations. They want those games to facilitate their job, thereby being a supporting tool that do not increase the amount of work load that they already have. That is, \acp{PREG} should be useful and practical for physiotherapists. Second, the supervision of physiotherapists is required to assure patients safety. Evaluators should consider that physiotherapists’ participation may alter interaction. Third, if the exergame is designed to be used in a health institution, some evaluations should occur there to assess the exergame in the real context. Therefore, evaluation logistics, such as time, number of participants, duration and location, usually will depend on them. Thus, evaluators should plan evaluation sessions considering internal regulations of the involved institution. Finally, although paper-work imposed by the health institutions does not relates directly with \ac{PX}, it can affect patient's motivation to even start a therapy.
-
-\subsubsection{Patients' condition constraints}
-\label{sec:reh_patients_constraints}
-\acp{PREG} are targeted at people who need to recover lost functions. Therefore, evaluators should clearly define who can participate during evaluations. They should define the participants' physiological and therapeutic characteristics. Modelling Personas would be an appropriate approach to achieve such definition \autocite{Mader2012}. After that, an important aspect to evaluate is the capability of an exergame to be configurable to meet particular characteristics of target patients. The exergame should be safe for patients. Thus, initial evaluations should involve healthy subjects, e.g. physiotherapists, as stated by \textcite{Chu2011}.
-
-With regards to patients' performance, exercises execution correctness must be assured, while fatigue and over-exercise must be avoided as stated by other authors \autocite{Pasch2009,Isbister2015,Zhang2011}. If the evaluated \ac{PREG} does not perform those tasks automatically, it may facilitate physiotherapists supervision; e.g., by allowing to pause and reconfigure game sessions.
-
-Additionally, patients' expectations about their therapies are related to its daily life. Their main expectation is to complete their treatments as soon as possible to return to their daily life routines. Sometimes, they feel more motivated when therapies are challenging since they consider that the recovery process will be effective and fast. Therefore, physiotherapists should balance treatments to meet those expectations without compromising patients' health status. In that context, if patients believe that a \ac{PREG} does not contribute to their early recovery, they may not want to play them.
-
-\subsubsection{Interaction devices constraints}
-\label{sec:interation_dev_constraints}
-\acp{PREG} use non-traditional interaction devices such as camera motion sensors. Input and output devices should allow patients to have a clear understanding of the outcome of their actions. For instance, a third person view is more appropriate than a first-person view, and big screens are preferred if patients should locate at a certain distance from the devices. Moreover, input devices should be natural and easy to use for patients. Those devices should allow making a meaningful mapping of rehabilitation movements and exercises. Finally, physical therapies include the use physical agents and objects that may affect what interaction devices can track.
 
 %-----------------------------------------------
 \subsection{Characterising a \ac{PREG}} % Characterising approach ----------------------------------
 \label{sec:characterising}
+To characterise a \ac{PREG}, we need a set of properties to understand its role within physical therapy. Such characterisation may be useful to define the scope of a \ac{PX} evaluation. For instance, when evaluating an autonomous \ac{PREG}, aspects such as exercise monitoring and correction are highly important; however, if the \ac{PREG} only assists in motivating patients, those aspects would be irrelevant. Below, we present nine properties to characterise \acp{PREG} based on the work presented in \autocite{PirovanoAdvisor2012}:
 
-To characterise a \ac{PREG}, we need a set of properties to understand its role within physical therapies. Such characterisation may be useful to define the scope of a PX evaluation. For instance, when evaluating an autonomous \ac{PREG}, aspects such as exercise monitoring and correction are highly important; however, if the \ac{PREG} only assists in motivating patients, those aspects would be irrelevant. We selected thirteen properties for characterising a \ac{PREG}. The first eight properties are based on the work presented in \autocite{PirovanoAdvisor2012}, and the remaining were defined according to the results of our study. We asked a group of physiotherapists to identify characteristics of \acp{PREG} that they consider relevant for evaluation purposes. Below, we describe the properties:
-
-\begin{enumerate}
-    \item \emph{Rehabilitation type}: \acp{PREG} can be \textit{wide-focused} if the game interaction requires patients whole body motion; or \textit{tight-focused} if the game interaction is enabled by a specific body part or a specific movement. Wide-focused \acp{PREG} are generally directed to upper and lower limbs and might require more space than wide-focused ones.
+\subsubsection{Rehabilitation type}
+\acp{PREG} can be \textit{wide-focused}, if the game interaction requires patients whole body motion; or \textit{tight-focused}, if the game interaction is enabled by a specific body part or a specific movement. Wide-focused \acp{PREG} are generally directed to upper and lower limbs and might require more space than wide-focused ones.
     
-    \item \emph{Assisted tasks}: a therapy involves different tasks which can be assisted by \acp{PREG}. These tasks include configuration and personalisation, monitoring, feedback provision, adaptation, data extraction, motivation and assessment.
+\subsubsection{Assisted tasks}
+\acp{PREG} may assist one or more of the therapy tasks presented in \autoref{sub:def_rehab_therapy}.
     
-    \item \emph{Degree of autonomy}: this property is closely related to the supervision task of physical therapies. A \ac{PREG} can have one of 5 degrees of autonomy (See \autoref{tab:autonomy_dgree}). \textit{First-degree} \acp{PREG} support only motivation and require a physiotherapist to perform constant supervision. \textit{Second-degree} \acp{PREG} include adaptation features or constraint patient motion using robotic devices. This degree still requires constant physio-therapist supervision. \textit{Third-degree} \acp{PREG} require asynchronous physiotherapist supervision remotely or along periodic meetings. \textit{Fourth-degree} \acp{PREG} do not require physiotherapist supervision and could be considered standalone applications. However, certain input from physiotherapists is required; e.g., during diagnosis and assessment. \textit{Fifth-degree} are standalone \acp{PREG} that do not require any input from physiotherapists. Thus, all therapy tasks are performed using \ac{AI}. Fifth-degree is Utopian since current \acp{PREG} cannot replace physiotherapists labour.
+\subsubsection{Degree of autonomy}
+This property is closely related to the supervision task of physical therapy. A \ac{PREG} can have one of 5 degrees of autonomy (See \autoref{tab:autonomy_dgree}). \textit{First-degree} \acp{PREG} support only motivation and require a physiotherapist to perform constant supervision. \textit{Second-degree} \acp{PREG} include adaptation features or constraint patient motion using robotic devices. These \acp{PREG} still requires constant physiotherapist supervision. \textit{Third-degree} \acp{PREG} require asynchronous physiotherapist supervision remotely or along periodic meetings. \textit{Fourth-degree} \acp{PREG} do not require physiotherapist supervision and could be considered standalone applications. However, certain input from physiotherapists is required; e.g., during diagnosis and assessment. \textit{Fifth-degree} are standalone \acp{PREG} that do not require any input from physiotherapists. Thus, all therapy tasks are performed using \ac{AI}. Fifth-degree is Utopian since current \acp{PREG} cannot replace physiotherapists labour.
     
-    \item \emph{Configuration and assessment capability}: this property indicates whether a \ac{PREG} is \textit{closed-loop}, i.e., it can be configured and allows assessing patients performance; or \textit{open-loop}, i.e., it can be configured, but does not allow assessing patients performance.
+\subsubsection{Configuration and assessment capability}
+This property indicates whether a \ac{PREG} is \textit{closed-loop}, i.e., it can be configured and allows assessing patients performance; or \textit{open-loop}, i.e., it can be configured, but does not allow assessing patients performance.
     
-    \item \emph{Input/output interaction devices}: A \ac{PREG} may include five types of input devices: \textit{standard, robotic, haptic, motion-enabled and camera-tracking}. Standard devices are traditional ones such as the mouse, keyboard, joystick and touch input. Robotic devices help patients perform correct movements. However, these devices may be expensive and invasive. Haptic devices provide some benefits of robotic devices at lower costs. Motion-enabled devices track users motion using accelerometers, gyroscopes or pressure sensors. Camera tracking devices allow body-free interaction, but they have some drawbacks associated with light conditions and tracking precision.
+\subsubsection{Input interaction devices}
+A\ac{PREG} may include five types of input devices: \textit{standard, robotic, haptic, motion-enabled} and \textit{camera-tracking}. Standard devices are traditional ones such as the mouse, keyboard, joystick and touch input. Robotic devices help patients perform correct movements. However, these may be expensive and invasive. Haptic devices provide some benefits of robotic devices at lower costs. Motion-enabled devices track users motion using accelerometers, gyroscopes or pressure sensors. Lastly, camera tracking devices allow body-free interaction, but they have some drawbacks associated with light conditions and tracking precision.
     
-    Output devices include standard video and audio devices, joysticks with light or vibration feedback or novel devices supporting augmented, virtual or mixed reality.
+\subsubsection{Output interaction devices}
+Output devices include standard video and audio devices, joysticks with light or vibration feedback or novel devices supporting augmented, virtual or mixed reality.
     
-    \item \emph{Thematic content}: indicates the content associated with a \ac{PREG}. It can be related to \textit{daily life activities}, e.g., cooking or walking. Also, it can be \textit{realistic}, which includes non-ordinary real-life activities like driving a plane; or \textit{imaginary}, which refers to activities that are not feasible in real life; e.g., riding a dragon. Finally, the content can be \textit{abstract}, which is not realistic nor imaginary; e.g., tic-tac-toe.
+\subsubsection{Thematic content}
+Thir property indicates the content associated with a \ac{PREG}. It can be related to \textit{daily life activities}, e.g., cooking or walking. Also, it can be \textit{realistic}, which includes non-ordinary real-life activities like driving a plane; or \textit{imaginary}, which refers to activities that are not feasible in real life; e.g., riding a dragon. Finally, the content can be \textit{abstract}, which is not realistic nor imaginary; e.g., tic-tac-toe.
     
-    \item \emph{Location}: indicates the intended location for the \ac{PREG}; e.g., hospital, home, school; 
+\subsubsection{Location}
+This property indicates the intended location for the \ac{PREG}; e.g., hospital, home and school.
     
-    \item \emph{Type of intervention}: indicates whether a \ac{PREG} assists an individual or a group intervention.
-    
-    \item \emph{Associated movements}: indicates the movements which enable game interaction. These movements should be closely related to the intended rehabilitation goal; e.g., shoulder flexion or extension
-    
-    \item \emph{Associated configuration parameters}: this property indicates the set of parameters provided by a \ac{PREG} to configure and personalise a game session according to patient’s needs; e.g., the minimum and maximum angle of a joint movement, speed, number of repetitions and session time. This property does not apply for first-degree autonomous \acp{PREG}.
-    
-    \item \emph{Rehabilitation goal}: indicates the rehabilitation/therapeutic goal of a \ac{PREG}. This goal must be set by, or in collaboration with, physiotherapists. For instance, regain motion of a certain joint.
-    
-    \item \emph{Associated health instruments}: includes instruments that can be used to assess the achievement of the rehabilitation goal; e.g., strength scales, balance tests, goniometer.
-    
-    \item \emph{Associated impairment}: this property is optional and applies when a \ac{PREG} is centred on a impairment.
-\end{enumerate}
+\subsubsection{Type of intervention}
+This property indicates whether a \ac{PREG} assists an individual or a group intervention.
 
 \begin{table}[h]
 \caption{Capabilities of each degree of autonomy of \acp{PREG}}
@@ -192,36 +95,153 @@ Diagnosis/assessment/adaptation & No & No & No & No & Yes\\
 \end{tabular}}
 \end{table}
 
+%-----------------------------------
+\section{Constraints and characteristics definition study}\label{sec:study_char} % Study---------
+
+\subsection{Aim of the study}
+To identify the constraints that \acp{PREG} may impose on \ac{PX} evaluation, from a physiotherapists' point of view.
+
+\subsection{Participants}
+Data is collected from physiotherapists as they supervise the patient's therapies. Three physiotherapists (2 females and 1 male) from the Physical Medicine and Rehabilitation unit at the he Evaristo Garc\'ia University Hospital in Cali Colombia are interviewed. Two of them have been collaborating in the development of a \ac{PREG}. Verbal informed consent was obtained from the participants.
+
+\subsection{Procedure}
+Five semi-structured interviews are conducted during two sessions. Two physiotherapists participated in both sessions, while the other two joined the second session. Each physiotherapist was interviewed individually. The goal of the first interviews are to characterise the context in which \acp{PREG} are employed. We aimed to identify possible constraints that might limit the \ac{PX} evaluation of \acp{PREG}. The interview of the first session is guided using the following questions:
+
+\begin{enumerate}
+    \item What kind of patients participate in physical therapy?
+    \item How is patients' motivation towards physical therapy?
+    \item What factors affect patients' motivation towards physical therapy?
+    \item What activities occur during physical therapy sessions?
+    \item Who participates in physical therapy sessions?
+\end{enumerate}
+
+The goal of the second session of interviews is to identify physiotherapist's expectations and requirements regarding the use of \acp{PREG}, which evaluators should consider when evaluating \ac{PX}. The second session is conducted using the following questions.
+\begin{enumerate}
+    \item Who decides if a patient can use a \ac{PREG} as part of his/her therapy?
+    \item How can a \ac{PREG} be used as a part of physical therapy?
+    \item When can a \ac{PREG} be used as a part of physical therapy?
+    \item How do you expect to use \acp{PREG}?
+    \item How do you think \acp{PREG} should assist patients?
+\end{enumerate}
+
+All interviews are audio recorded.
+
+\subsection{Analysis}
+
+Collected data is analysed using the thematic analysis method \autocite{Burnard2008}. Interviews are transcribed to produce a list of relevant statements. We select statements that are closely related to the aim of the study. Then, preliminary codes are assigned to the statements. After that, codes are iteratively grouped to identify potential themes, which are reviewed until defining the four final. The initial codes and assigned final themes are presented to the participants in order to validate whether the obtained results represented their views or not. The conducted study is illustrated in \autoref{fig:constraintsIdentification}. And the evidence of the thematic analysis is available online\footnote{Thematic analysis of \acp{PREG} constraints: \url{https://goo.gl/7Qv8Lu}}.
+
+\begin{figure}[htb]
+\myfloatalign
+{\includegraphics[width=\linewidth]{gfx/characterisation/constraintsIdentification}} \quad
+\caption{Evaluation constraints identification process}\label{fig:constraintsIdentification}
+\end{figure}
+
+%-----------------------------------
+\section{Constraints of evaluating PX in PREGs}\label{sec:constraints} % Findings ---------------
+After transcribing interviews, we identified 69 statements regarding possible constraints of \acp{PREG}. Those statements were grouped into 4 final themes: patient related (38 statements), rehabilitation context (18 statements) and rehabilitation goal (13 statements). A summary of the findings is presented in \autoref{fig:constraintsGraph}. Regarding validation, the physiotherapist clarified or added information to five statements, this validation did not affect the resulting categories.
+
+\begin{figure}[htb]
+\myfloatalign
+{\includegraphics[width=\linewidth]{gfx/characterisation/constraintsGraph}} \quad
+\caption{Map of qualitative findings, including themes and sub-themes associated to the constraints of \acp{PREG}}\label{fig:constraintsGraph}
+\end{figure}
+
+\acp{PREG} constraints are related to the \textit{rehabilitation environment} and \textit{goals} and the limitations imposed by the \textit{players' characteristics}. 
+
+\subsection{Rehabilitation goal constraints}
+\label{sec:reh_goal_constraints}
+The physiotherapists indicated the importance of establishing rehabilitation goals to guide the whole physical rehabilitation process. They said that patients are evaluated in the first therapy session to set therapy goal(s) and a treatment plan. Patients are re-evaluated along the treatment to adapt therapy according to their progress.
+
+They remarked that \acp{PREG} should be oriented to specific goals such as motion recovery, functional independence, motor coordination or proprioception.
+
+The physiotherapists said that they assess the achievement of goals based on aspects associated with motion recovery and functional independence gain (e.g., range of motion and strength) by using physiotherapy instruments and methods (e.g., \ac{FIM}).
+
+They highlighted that the feedback provided to patients should inform their performance during a therapy session. They provide continuous feedback and guidance to patients to guarantee the correct execution of exercises.
+
+Also, physiotherapists provide feedback about overall patients' progress regarding rehabilitation goal(s). Additionally, the physiotherapists remarked that progress information is key to adapt therapy effectively.
+
+\subsection{Rehabilitation context constraints}
+\label{sec:reh_context_constraints}
+According to the interviewees, the patients' opportunity to use a \ac{PREG} may depend on the physiotherapists' criteria. They are responsible for the patients' safety, and the inclusion of \acp{PREG} in a treatment may depend on patients' condition.
+
+Furthermore, physiotherapists expect \acp{PREG} to assist their job, thereby being a supporting tool that does not increase the amount of workload that they already have. They think that a \ac{PREG} could bring dynamism and variety to the therapy.
+
+Regarding the duration of a therapy session, they expressed that it usually lasts one hour, and they should plan what to include in each session carefully to achieve the expected goals.
+
+In addition to physiotherapists, other people (e.g., rehabilitation assistants and other patients) may participate in or interrupt therapy sessions. Also, assisting objects such as weights and balls are used during therapy sessions to support the achievement of a therapeutic goal.
+
+Finally, a physiotherapist expressed that the paperwork imposed by health institutions can affect the patients' motivation to start a rehabilitation treatment.
+
+\subsection{Patient related constraints}
+\label{sec:reh_patients_constraints}
+The physiotherapists mentioned some of the common impairments that physiotherapy patients suffer, including lower and upper limbs fractures, cerebral palsy and lumbar pain. They remarked that \acp{PREG} could be used if patients are highly independent to avoid risks. Also, \acp{PREG} should not require patients to perform something they are not able to.
+
+They remarked that therapies and \acp{PREG} should adapt to the physical characteristics of target patients to achieve rehabilitation goals safety. For instance, adults cannot play on unstable surfaces like a balance board. Similarly, they highlighted that \acp{PREG} should allow working on specific joints.
+
+Furthermore, they highlighted that therapies might differ depending on demographic characteristics of patients such as age or literacy. For instance, adults require constant monitoring and reinforcement, whereas teenagers understand instructions easily and require less monitoring elderly.
+
+Although the physiotherapists did not explicitly attribute motivation as one of their tasks, they mentioned what motivates or demotivates patients. Patients' major expectation is to progress and complete their treatments as soon as possible. Also, some causes for patients' lack of motivation are the monotony of exercises, pain, difficulty to perform an exercise or feeling that an activity does not contribute to the rehabilitation goal achievement. If a patient notice progression, he/she gets motivated, participates more and requests more challenging exercises; otherwise, he/she gets discouraged and tends to quit therapy.
+
 % -----------------------------------------------
-\section{Discussion} % Discussion -----------------------------------------------
-\label{sec:discussion_char}
-% What is known? \acp{PREG} definitions, models. Rehabilitation process.
-% What is new? Definition and characterisation based on constraints, collected with people from the field of physical rehabilitation.
-% Relation of the new with problem, how knowledge was forward: PX evaluation will consider rehabilitation characteristics of this kind of \acp{PREG} (Evaluation may be appropriate, relevant)
-% Reiterate the Research Problem/State the Major Findings: how rehabilitation games are different from traditional digital games for evaluation purposes?
-% Explain the Meaning of the Findings and Why They are Important: expected? unexpected? (explain these especially). unusual or unanticipated patterns or trends that emerged from your results and explain their meaning in relation to the research problem.
-We proposed a definition to identify what differentiates \acp{PREG} from other digital games. We identified three main characteristics of these games: (i) they require players' body motion to enable interaction (ii) they should assist patients in achieving a rehabilitation goal and (ii) facilitate physiotherapists work supporting one or more of their tasks (e.g. motivation, supervision or evaluation). These characteristics allow concluding that evaluating \ac{PX} in \acp{PREG} is not a straightforward process since in this context enjoyment or fun is not the main expected result as in entertainment games \autocite{Fernandez}. Although aspects such as enjoyment, flow, presence may allow evaluating patients motivation towards a \ac{PREG}, those are not sufficient to evaluate its effectiveness to assist a rehabilitation goal.
+\section{Discussion}\label{sec:discussion_char} % Discussion -----------------------------------------------
+Our findings suggest that \ac{PX} in \acp{PREG} should be evaluated considering constraints imposed by the sought after rehabilitation goal, the rehabilitation context; i.e. physiotherapists and other people intervention, and the patients' condition. Moreover, each \ac{PREG} may have additional constraints derived from the context of use and design that evaluators should identify when planning an evaluation.
 
-Using a qualitative study we were able to identify constraints that may alter \ac{PX} in \acp{PREG}. A \ac{PREG} is meant to be used in rehabilitation therapies. Our results indicate that its use depends on physiotherapists' criteria and its capabilities to assist the therapy. We found four groups of constraints that evaluators should consider when planning a \ac{PX} evaluation. These constraints represent requirements that \acp{PREG} should meet. We proposed an approach to characterise \acp{PREG} for evaluation purposes. It allows evaluators to identify which constraints should be evaluated since some of them are optional and their evaluation depends on characteristics of the evaluated exergame. Thus, this approach allows defining the scope of an evaluation.
+In this section, we present the implications that the identified constraints may represent when evaluating \ac{PX} in \acp{PREG}.
 
-Our study allowed us to identify the importance of physiotherapists in the evaluation of \acp{PREG}. First, we found that the inclusion of a \ac{PREG} in rehabilitation therapies relies on physiotherapists' criteria. That means that meeting their expectations is relevant for a \ac{PREG} to be effective. Additionally, the conducted interviews allowed to identify that physiotherapists would play an important role in evaluating the effectiveness of an exergame to assist a rehabilitation goal. They know which aspects may indicate such effectiveness and know how to assess them; e.g. range of motion. We believe that having physiotherapists as our main source of information allowed us identifying their relevance and increase our view of patients as main users of \acp{PREG}. Also, that makes the process of evaluating \acp{PREG} more difficult since evaluators should consider new users, instruments and tests.
+\subsection{Rehabilitation goal constraints}
+According to the physiotherapists' comments, and as suggested by \textcite{PirovanoAdvisor2012} the effectiveness of a \ac{PREG} may be assessed by its capability to assist the achievement of a rehabilitation goal. Thus, evaluators should assess aspects associated to movement execution such as amplitude, accuracy or speed. As expected, such assessment may require using clinical tests and instruments, as others evaluators have done \autocite{Brokaw2015,Burke2009,Cameirao2010,jansen2013serious,Ni2014,Seo2016,Wuest2014}. Consequently, physiotherapists may play an important role in evaluating a \ac{PREG} since they can decide and assess the aspects that may indicate its effectiveness.
 
-Our results confirm some constraints reported in current literature. For instance, \textcite{Pirovano2016} argued that \acp{PREG} have an associated rehabilitation goal that should guide the whole design process. Also, several authors have highlighted the importance of offering effective, immediate, realistic and specific information about rehabilitation progress and exercise correctness \autocite{Pirovano2016,Wiemeyer2015,Pasch2009}. \textcite{Wiemeyer2015} claimed that physiotherapists' supervision is required to ensure patients' safety. Additionally, adaptation to meet patients particular needs has been remarked as an important requirement for a \ac{PREG} \autocite{Pirovano2016,Wiemeyer2015,Sinclair2007,Ni2014,Cameirao2010,Nijholt2008,Mueller2011,Zhang2011}.
+Evaluators should concentrate on assessing if a \ac{PREG} meets the requirements to be used as part of a therapy. In early development stages, they may assess if the design process is focused on a rehabilitation goal \autocite{PirovanoAdvisor2012,Wiemeyer2015}; i.e., if the game mechanics relate directly to a set of movements and, as suggested by the physiotherapists, if the exercises can be configured to personalise the experience according to patients' needs \autocite{Ni2014,Nijholt2008,Wiemeyer2015}. Similarly, they must evaluate if a \ac{PREG} can be used safely by patients.
 
-We identified some contextual constraints that affect gameplay experience and are not related to patients or physiotherapists. For instance, sometimes physiotherapists include objects such as balls and weights in exercises with a therapeutic intention, but also as a way to include variety to the therapy and motivate patients. That confirms the complexity of the experience of using and evaluating \acp{PREG}.
+Moreover, they should assess the quality of the feedback provided by the \ac{PREG}. Patients need continuous information about rehabilitation progress and exercise correctness. It would allow physiotherapists making decisions based on rehabilitation goal achievement and keeping patients motivated. Also, evaluators should assess if interaction devices offer a point of view that allows patients to have a clear understanding of the outcome of  their actions \autocite{PirovanoAdvisor2012}; e.g., a third person view is more appropriate than a first person view, and big output screens might be preferred if patients are located at a certain distance from the devices.
 
-Physiotherapists mentioned that patients motivation sometimes is affected by the regulations of health institutions. For instance, some patients decide to stop attending their treatments due to the amount of paper-work they have to do before having a therapy session. Although patients' motivation towards their therapies is one of our main interests, we believe that it is an aspect that cannot be addressed by a having a \ac{PREG}. It also indicates that there are contextual influences that go beyond the limits of patients, physiotherapists or \acp{PREG}.
- 
-We could not include patients in our study due to availability reasons. We tried to overcome this limitation by asking physiotherapists about patients profile, motivations and expectations since they interact daily during therapies. Although the interviews with physiotherapists offered us new insights in the evaluation of \ac{PX} in \acp{PREG}, we consider that the set of constraints may be enriched including the point of view of patients.
+Rehabilitation goal constraints should be considered before, during and after a player plays a \ac{PREG}. Before, those constraints require evaluators to assess if a \ac{PREG} supports a rehabilitation goal and if it is safe for patients considering aspects such as therapeutic goal centred design and configuration. During and after the interaction, evaluators would consider \ac{PX} from the therapeutic point of view regarding the performance and progress feedback, monitoring, adaptation and point of view.
 
-Most of the identified constraints apply to supervised \acp{PREG}. Therefore, another kind of study could be useful to identify additional constraints that the use of autonomous \acp{PREG} may arise. We focused our study on identifying constraints imposed by the context in which \acp{PREG} may be used. We conducted the interviews with physiotherapists at a hospital. As a result, the physiotherapists answered based on their experience at the hospital. In this context, they consider \acp{PREG} as a complementary tool and not as an autonomous therapy alternative. However, there are some studies focused on \acp{PREG} for autonomous rehabilitation \autocite{PirovanoAdvisor2012}.
+\subsection{Rehabilitation context constraints}
+When evaluating \acp{PREG} the participation of patients and physiotherapists may be required since they represent end users. Additionally, supervision of physiotherapists during evaluation sessions is always required to assure patients' safety \autocite{Wiemeyer2015}, as the physiotherapists expressed, they are responsible for patients' wellbeing. Therefore, they are the ones who can decide whether a patient could participate in an evaluation session or not. Consequently, evaluators should consider that the physiotherapists' participation may alter the interaction between a \ac{PREG} and a patient.  Also, evaluation logistics, such as time, number of participants, duration and location will depend on the internal regulations of health institutions. Furthermore, \acp{PREG} should meet physiotherapists' needs and expectations since they decide if a \ac{PREG} can be included in a therapy.
 
-% Consider Alternative Explanations of the Findings: a claim for how the results can be applied more generally. For example, describing lessons learned, proposing recommendations that can help improve a situation, or highlighting best practices.
+The physiotherapists expressed that the rehabilitation context may bring distractions to patients. Therefore, evaluators should assess aspects such as immersion and absorption \autocite{Lapas2015}. Additionally, the \ac{PREG}'s cognitive load should not distract patients from the expected rehabilitation goal \autocite{Isbister2015,Sinclair2007}. Also, interaction devices should enable the use of objects such as balls or weights if required by physiotherapists.
 
-% Non-supervised rehab \acp{PREG}; 
-% End: concise summary of the principal implications of the findings regardless of significance. Why you believe the findings and conclusions of your study are important and how they support broader knowledge or understanding of the research problem. This can be followed by any recommendations for further research. A more general claim or possible conclusion arising from the results. E.g. new research questions.
+We also identified that time is an important aspect for physiotherapists. A \ac{PREG} should allow them to set the play session time as needed; e.g., 5 to 10 minutes for warming up, 20 for stimulus and 5 for cooling down \autocite{Sinclair2007}.
+
+The physiotherapists mentioned that the patients' motivation is sometimes affected by the regulations of health institutions. For instance, some patients decide to stop attending their treatments due to the amount of paperwork they must complete before and during a therapy. Although patients' motivation towards their therapies is one of our main interests, we believe that it is out of the scope of \acp{PREG}. That indicates that there are contextual influences that go beyond the limits of patients, physiotherapists or \acp{PREG}.
+
+Rehabilitation context constraints should be considered mainly before and during a player plays a \ac{PREG}. Before, these constraints may allow determining if a \ac{PREG} can be included in a therapy according to the physiotherapist's criteria. During the interaction, the presence of other people and objects should be assessed regarding their impact on \ac{PX}.
+
+\subsection{Patient related constraints}
+Physiotherapists expressed that some patients could not use a \ac{PREG}. Consequently, evaluators should define target participants including their physiological and physical characteristics. In that process, physiotherapists should be involved as source of information and Persona modelling might be employed \autocite{Mader2012}. Also, initial evaluations should involve healthy subjects, e.g. physiotherapists \autocite{Chu2011}, since patients safety has to be guaranteed.
+
+Regarding adaptation to patient's needs, evaluators should assess if a \ac{PREG} can be configured before a play session to meet his/her characteristics \autocite{Ni2014,Nijholt2008,PirovanoAdvisor2012,Rego2018,Sinclair2007,Wiemeyer2015}. Also, they should assess if the \ac{PREG} adapts to patients' performance during interaction \autocite{PirovanoAdvisor2012,Rego2018}. Moreover, the correctness of exercise execution must be assured \autocite{Isbister2015,PirovanoAdvisor2012}, and patient's fatigue and over-exercise should be avoided \autocite{Isbister2015,Pasch2009,Zhang2011}.
+
+Since patients have different demographic characteristics (e.g., age and literacy). \acs{PREG} should be easy to use and include tutorials or on-boarding levels. Additionally, \acp{PREG} should balance game challenges and patient's physical skills \autocite{Sinclair2007} and input devices should be natural and easy to use.
+
+Patients' expectations are a source of motivation for them to continue playing in the future and achieve the expected rehabilitation goals. Thus, those expectations should be met by \acp{PREG}. The major expectation of adult patients is that \acp{PREG} contribute to their recovery process, in that case, if patients believe that a \ac{PREG} does not contribute to their early recovery, they may not want to play them. Therefore, evaluators may assess aspects such as proven clinical effectiveness, clinical feedback, \autocite{Seo2016} satisfaction \autocite{Sanchez2009,Yanez-Gomez2017,Zhao2016} and acceptance \autocite{Yanez-Gomez2017}. Meanwhile, the physiotherapists remarked that children prefer interactive activities. In that case, evaluators should assess if a \ac{PREG} offers an engaging and compelling experience \autocite{PirovanoAdvisor2012,Sinclair2007}.
+
+Patients' related constraints should be considered before, during and after a player interacts with a \ac{PREG}. Before, those constraints may allow determining if a patient can use a \ac{PREG} as part of his/her therapy according to his/her condition and motivation towards it. During the interaction, evaluators should asses the experience of the patient regarding their motivations and attitudes. Finally, after the interaction, they should assess satisfaction and rehabilitation progress.
+
+\subsection{Additional properties to characterise a \ac{PREG}}
+Based on our findings, we argue that the following properties are relevant to characterise a \ac{PREG}. These properties may be complementary to those presented in  \autocite{Rego2018} and in \autoref{sec:characterising} since these are specifically for \acp{PREG} and are derived from the information provided by the interviewed physiotherapists.
+
+\subsubsection{Associated movements}
+The physiotherapists expressed that they need to work on particular joints depending on patients' needs. Although other works  \autocite{PirovanoAdvisor2012,Rego2018} include body parts (e.g. upper-limb, lower-limb and trunk), it may be relevant for physiotherapists to know exactly which movements are supported by a \ac{PREG} to include it in a rehabilitation treatment Also, associated movements should be directly related to game mechanics; i.e., they should enable game interaction.
+
+\subsubsection{Associated configuration parameters}
+The physiotherapists claimed that \acp{PREG} should meet patients' needs. That is, PGREs should be configurable to personalise game sessions for each patient. The configuration parameters should be related to the associated movements and the duration of a game session; e.g., movements or joints to be enabled, expected minimum and maximum range of motion, speed, number of repetitions and session time.
+
+\subsubsection{Rehabilitation goals}
+As discussed above, the mechanics of a \ac{PREG} should be guided by rehabilitation goals. Such goals may be generic (e.g. to increase the range of motion of shoulders extension) and must be set by, or in collaboration with, physiotherapists.
+
+\subsubsection{Associated clinical instruments}
+Physical rehabilitation instruments allow evaluators to assess the capability of a \ac{PREG} to assist the achievement of the associated rehabilitation goals. Those instruments include strength scales, balance tests and goniometer.
+
+\subsubsection{Associated impairment}
+This property is relevant for \acp{PREG} developed for a specific impairment; e.g., the ones presented in \autocite{Brokaw2015,Ni2014}. Knowing if a \ac{PREG} has an associated impairment may facilitate the work of a physiotherapist; e.g., when selecting a proper \ac{PREG} for a patient.
+
+\subsection{Limitations}
+Our findings cannot be generalised since the study was qualitative and we collected information from five interviews. Also, that information is based on the experience of the interviewees as physiotherapists. Their answers were based on their daily work at the hospital and their expectations and ideas regarding \acp{PREG}. They considered \acp{PREG} as a complementary tool and not as an autonomous therapy alternative. Consequently, most of the identified constraints apply to supervised \acp{PREG}; and another kind of study could be useful to identify additional constraints in the case of autonomous \acp{PREG}.
+
+We could not include patients in our study due to availability reasons. Although the interviews with physiotherapists offered us new insights in the evaluation of \ac{PX} in \acp{PREG}, we consider that the set of constraints may be enriched by including the point of view of patients.
 
 % -----------------------------------------------
-\section{Conclusion} % Conclusion -----------------------------------------------
-\label{sec:conclusion_char}
-This chapter presented a comprehensive definition of \acp{PREG} that highlights characteristics that differentiate these games from entertainment games. Our definition is based on three concepts: exergames, therapeutic games and physical therapies. Moreover, we conducted a qualitative study to identify constraints from the therapy context that may affect the experience of playing \acp{PREG} and its evaluation. These constraints are related to the rehabilitation goal, rehabilitation context, patients condition and interaction devices involved in \acp{PREG}. Both, the definition and constraints allowed us to define a set of properties to characterise \acp{PREG} for evaluation purposes. Our work contributes to a more comprehensive understanding of \acp{PREG} considering their context of use and their purpose as therapeutic. The results of this study serve as basis for the formulation of a model of \ac{PX} for \acp{PREG}. However, the generalisation of our results should be validated since our study was completely qualitative.
+\section{Conclusion}\label{sec:conclusion_char} % Conclusion -----------------------------------------------
+We conducted a qualitative study to identify the constraints that evaluators should address when assessing \ac{PX} in a \ac{PREG}. Our results indicate that its use depends on physiotherapists' criteria and expectations, patients' expectations and its capability to assist the therapy.  We found that those constraints are related to three aspects: the sought after rehabilitation goal, the rehabilitation context and the patients' characteristics. Our findings allow us to conclude that a \ac{PREG} should be evaluated in terms of its capability to assist a rehabilitation goal and to motivate physiotherapists and patients to start and continue using them. Consequently, the methods employed to evaluate entertainment exergames should be extended to perform a relevant \ac{PX} evaluation since evaluators should consider the therapeutic purpose of \acp{PREG}. Our work contributes to a more comprehensive understanding of \acp{PREG} considering their context of use and their purpose as therapy. The results of this study may serve as the basis for the formulation of a model for \ac{PX} evaluation in \acp{PREG}. As expected, our results cannot be generalised since our study was completely qualitative.
