@@ -59,7 +59,7 @@
 
 \include{FrontBackMatter/Titleback} % Back of the title page
 
-%\cleardoublepage\include{FrontBackMatter/Dedication} % Dedication page
+\cleardoublepage\include{FrontBackMatter/Dedication} % Dedication page
 
 %\cleardoublepage\include{FrontBackMatter/Foreword} % Uncomment and create a Foreword.tex to include a foreword
 
@@ -67,7 +67,7 @@
 
 \cleardoublepage\include{FrontBackMatter/Publication} % Publications from the thesis page
 
-%\cleardoublepage\include{FrontBackMatter/Acknowledgments} % Acknowledgements page
+\cleardoublepage\include{FrontBackMatter/Acknowledgments} % Acknowledgements page
 
 \pagestyle{scrheadings} % Show chapter titles as headings
 
@@ -84,26 +84,15 @@
 
 %\ctparttext{You can put some informational part preamble text here. Illo principalmente su nos. Non message \emph{occidental} angloromanic da. Debitas effortio simplificate sia se, auxiliar summarios da que, se avantiate publicationes via. Pan in terra summarios, capital interlingua se que. Al via multo esser specimen, campo responder que da. Le usate medical addresses pro, europa origine sanctificate nos se.} % Text on the Part 2 page describing the content in Part 2
 
-%\part{Words Play in Context} 
 \include{Chapters/01_Introduction}
 \include{Chapters/02_ReferenceFramework}
 \include{Chapters/03_Characterising}
 \include{Chapters/04_Aspects}
-\include{Chapters/05_Model}
-%\include{Chapters/06_Methodology}
-\include{Chapters/07_Questionnaire}
-\include{Chapters/08_Playtherapy}
+\include{Chapters/05_Questionnaire}
+\include{Chapters/06_Model}
+\include{Chapters/07_Playtherapy}
+\include{Chapters/08_Conclusions}
 
-%----------------------------------------------------------------------------------------
-%	THESIS CONTENT - APPENDICES
-%----------------------------------------------------------------------------------------
-
-%\appendix
-
-%\part{Appendix} % New part of the thesis for the appendix
-
-%\include{Chapters/Chapter0A} % Appendix GDD
-%\include{Chapters/Chapter0B} % Appendix SRS
 %----------------------------------------------------------------------------------------
 %	POST-CONTENT THESIS PAGES
 %----------------------------------------------------------------------------------------
@@ -112,8 +101,19 @@
 
 %\cleardoublepage\include{FrontBackMatter/Colophon} % Colophon
 
-%\cleardoublepage\include{FrontBackMatter/Declaration} % Declaration
+\cleardoublepage\include{FrontBackMatter/Declaration} % Declaration
 
 %----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+% APPENDICES
+%----------------------------------------------------------------------------------------
+
+\appendix
+
+%\part{Appendix} % New part of the thesis for the appendix
+\include{Chapters/0A_DigitalAttachments}
+\include{Chapters/0B_Physiotherapists_questionnaire}
+\include{Chapters/0C_WebApp}
 
 \end{document}

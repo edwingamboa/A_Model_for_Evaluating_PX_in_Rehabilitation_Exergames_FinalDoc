@@ -1,25 +1,24 @@
-\chapter{Evaluating PX in Playtherapy \acp{PREG}}
+\chapter{Evaluating PX in Playtherapy PREG}
 \label{ch:playtherapy}
-The goal of this project was to propose a comprehensive model to evaluate \acp{PREG} considering their entertaining and therapeutic purposes. In \autoref{ch:model}, we proposed a model and an evaluation methodology that meets that requirement. In this chapter, we present a study case in which we used the proposed model to evaluate \ac{PX} in a \ac{PREG}. The \ac{PREG} is called Playtherapy, which is being developed by the Multimedia and Computer Vision research group from \textit{Universidad del Valle} and the Evaristo Garc\'ia University Hospital from Cali Colombia. Since Playtherapy is a collection of mini \acp{PREG}, which were evaluated individually.
+The goal of this research work is to propose a comprehensive model to evaluate \acp{PREG} considering entertaining and therapeutic purposes. In \autoref{ch:model}, we proposed a model and an evaluation methodology that meets that requirement. In this chapter, we present a study case in which we used the proposed model to evaluate \ac{PX} in a \ac{PREG}. The \ac{PREG} is called Playtherapy, which is developed by the Multimedia and Computer Vision research group from \textit{Universidad del Valle} and the Evaristo Garc\'ia University Hospital in Cali Colombia. Since Playtherapy is a collection of mini \acp{PREG}, which were evaluated individually.
 
-The evaluation of Playtherapy employed a multi-method approach. The antecedents evaluation comprised three stages, one for each abstraction layer of \ac{PX} (i.e., context, player/patient and game system). It involved the use of methods such as interview, Persona modelling, \ac{PREG} characterisation \autoref{sec:characterising}, \ac{RITE} and question asking protocol. Moreover, a group of physiotherapists, a physiatrist and a physiotherapy student participated in the evaluation. Meanwhile, the interaction and effects moments of \ac{PX} were evaluated using a user-oriented evaluation. A group of physiotherapists and patients from the hospital tested each Playtherapy's mini \ac{PREG} employing the question asking protocol, field observation and interview methods. Additionally, we conducted a heuristic evaluation with three evaluators to assess the interaction moment quantitatively. The whole evaluation is illustrated in \autoref{fig:playtherapyEvaluation}.
+The evaluation of Playtherapy employed a multi-method approach. We employed the methodology proposed in \autoref{sec:methodology}. We perform several evaluation iterations during the production an post-production development stages of Playtherapy's mini \acp{PREG}. We started evaluating the antecedents of Playtherapy. That evaluation comprised three stages, one for each abstraction layer of \ac{PX} (i.e., context, player/patient and game system). Each evaluation comprised several iterations and involved the use of methods such as interview, Persona modelling, \ac{PREG} characterisation \autoref{sec:characterising}, \ac{RITE} and question asking protocol. Moreover, a group of physiotherapists, a physiatrist and a physiotherapy student participated in the evaluation. Meanwhile, the interaction and the effects moments of \ac{PX} were evaluated using a user-oriented evaluation. A group of physiotherapists and patients from the hospital tested each Playtherapy's mini \ac{PREG} employing the question asking protocol, field observation and interview methods. Additionally, we conducted a heuristic evaluation with three evaluators to assess the interaction moment quantitatively. Similarly, the interaction and the effects comprised several iterations. The whole evaluation process is illustrated in \autoref{fig:playtherapyEvaluation}.
 
 \begin{figure}[bth]
 \myfloatalign
 {\includegraphics[width=\linewidth]{gfx/playtherapy/playtherapyEvaluation}} \quad
-\caption{Overview of the evaluation of Playtherapy using the \ac{PX} model proposed in \autoref{ch:model}}
+\caption[Overview of the evaluation of Playtherapy using the proposed \ac{PX} model]{Overview of the evaluation of Playtherapy using the \ac{PX} model proposed in \autoref{ch:model}}
 \label{fig:playtherapyEvaluation}
 \end{figure}
 
-
-The remaining of this chapter is organised as follows. First, we present the evaluation the antecedents of Playtherapy's mini \acp{PREG} regarding the context, player/patient and game system layers of \ac{PX}. Second, we present the evaluation of the interaction and effects of each mini \ac{PREG} throughout the three abstraction layers. Third, we present a discussion of the obtained results describing their implications and limitations. Also, we present recommendations for future work. Finally, we summarise and conclude the chapter.
+The remaining of this chapter is organised as follows. First, we present the evaluation of the antecedents of Playtherapy's mini \acp{PREG} regarding the context, player/patient and game system layers of \ac{PX}. Second, we present the evaluation of the interaction and the effects of each mini \ac{PREG} throughout the three abstraction layers. Third, we present a discussion of the obtained results describing implications and limitations. Also, we present recommendations for future works. Finally, we summarise and conclude the chapter.
 
 \section{Antecedents}
-We conducted three semi-structured interviews with three physiotherapists (2 female, 1 male) from the Evaristo Garc\'ia University Hospital. We obtained informed consents from the participants verbally. The interviews were audio recorded. The goal of the interviews is to collect information about the \emph{context} where they will use Playtherapy, their expectations regarding its use and the \emph{patients' profile}. Furthermore, the game system was characterised identifying Playtherapy's architecture and using the approach presented in \autoref{sec:characterising}. Additionally, two members of the development team, a physiotherapy student and a programmer, evaluated each mini-game using the \ac{RITE} method. A summary of the evaluation process is presented in \autoref{tab:antecedents_evaluations} and detailed in the following sections.
+We conducted three semi-structured interviews with three physiotherapists (2 female, 1 male) from the Evaristo Garc\'ia University Hospital. We obtained verbal informed consents from the participants, and the interviews were audio recorded. The goal of the interviews is to collect information about the \emph{context} where Playtherapy will be used, their expectations and the \emph{patients' profile}. Furthermore, the game system was characterised by identifying Playtherapy's architecture and using the approach presented in \autoref{sec:characterising}. Additionally, two members of the development team, a physiotherapy student and a programmer, evaluated each mini \ac{PREG} using the \ac{RITE} method. A summary of the evaluation process is presented in \autoref{tab:antecedents_evaluations} and detailed information is provided in the following sections.
 
 \begin{table}[bth]
-\myfloatalign
 \caption{Conducted evaluation sessions to evaluate the antecedents of Playtherapy}
+\myfloatalign
 \resizebox{\linewidth}{!}{
 \begin{tabular}{p{1.5cm}p{4.5cm}p{4.5cm}p{4cm}p{4.5cm}p{1.8cm}}
 %----------------------
@@ -40,7 +39,7 @@ Player/ Patient
 & Identify a general profile of patients from the hospital
 & Player profile &  &  &  \\\midrule
 \multirow{3}{1.5cm}{Game system}
-& Characterise Playtherapy's mini-games
+& Characterise Playtherapy's mini \acp{PREG}
 & Characteristics
 & Characterisation \autoref{sec:characterising}
 & 1 \ac{PX} evaluator
@@ -52,37 +51,38 @@ Player/ Patient
 & 10 \\\cline{4-6}
 &  &  & Question asking protocol
 & 1 physiotherapist, 1 physiatrist
-& 5\\ \midrule
+& 5\\ 
 \bottomrule
 \end{tabular}}
 \label{tab:antecedents_evaluations}
 \end{table}
 
 \subsection{Context}
-As described in \autoref{sec:rel_among_dimension}, the context layer comprises the cultural parameters and the rehabilitation environment associated with the use of Playtherapy. To collect data about context, we use the following guiding questions for the conducted semi-structured interviews:
+As described in \autoref{sec:rel_among_dimensions}, the context layer comprises the cultural parameters and the rehabilitation environment associated with the use of Playtherapy. To collect data about context, we use the following guiding questions for the conducted semi-structured interviews:
 
 \begin{enumerate}
-    \item What activities occur during physical therapy sessions?
-    \item How can a \ac{PREG} be used as part of physical therapy?
-    \item How do you expect to use \ac{PREG}?
-    \item How do you think \acp{PREG} should assist patients?
+    \item How do describe the location where Playtherapy will be used?
+    \item How would you include Playtherapy as part of physical therapy?
+    \item How do you think Playtherapy should assist patients?
     \item What kind of devices and software do you use on a regular basis?
+    \item Have you used a \ac{PREG} before?
+    \item What should an evaluator take into account to be able to perform an evaluation of Playtherapy in the hospital?
 \end{enumerate}
 
 \subsubsection{Cultural parameters}
-Regarding \emph{cultural parameters}, the physiotherapists have not used \acp{PREG} in the hospital; thus, we did not identify local game communities. Some of the physiotherapists have used commercial \acp{PREG} for their entertainment and outside the hospital. Only the academic community would represent an environment to share experiences and find relevant information. 
+Regarding \emph{cultural parameters}, the physiotherapists have not used \acp{PREG} in the hospital; thus, we did not identify local game communities. Some of the physiotherapists have used commercial \acp{PREG} for entertainment and outside the hospital. Only the academic community would represent an environment to share experiences and find relevant information regarding the use of \acp{PREG} in physical therapy. 
 
 \subsubsection{Institution}
-Regarding the \emph{rehabilitation environment}, the physiotherapists expressed that a typical rehabilitation therapy starts with an evaluation or diagnosis session, which will serve as input to establish rehabilitation goals and a treatment plan. A diagnosis session is performed according to the \ac{APTA} and the \ac{ICF} and may involve assessing aspects such as motion range, functional Independence, oxygen saturation, \ac{HR}, fine motor skill, balance, resistance and strength. During a rehabilitation treatment, physiotherapists perform re-evaluations periodically to assess patients progress and adapt treatment plan accordingly (e.g. by including new exercises or physical instruments). Patients' progress is tracked using forms established by the hospital. That confirms the relevance of the therapy tasks presented in \autoref{sub:def_rehab_therapy}; i.e., personalisation, supervision and assessment since they allow physiotherapists to determine whether a patient can use Playtherapy or not.
+Regarding the \emph{rehabilitation environment}, the physiotherapists expressed that a typical rehabilitation therapy starts with an evaluation or diagnosis session, which will serve as input to establish rehabilitation goals and a treatment plan. A diagnosis session is performed according to the \ac{APTA} and the \ac{ICF} and may involve assessing aspects such as motion range, functional independence, oxygen saturation, \ac{HR}, fine motor skill, balance, resistance and strength. During a rehabilitation treatment, physiotherapists perform periodical re-evaluations to assess patients progress and adapt treatment plan accordingly (e.g. by including new exercises or physical instruments). Patients' progress is tracked using forms established by the hospital. That confirms the relevance of the therapy tasks presented in \autoref{sub:def_rehab_therapy}; i.e., personalisation, supervision and assessment since those allow physiotherapists to determine whether a patient can use Playtherapy or not.
 
-A therapy session takes one hour and comprises warm-up, cool-down and main therapeutic exercises, which are planned by a physiotherapist. In the first session, physiotherapists instruct patients to maintain a correct posture, avoid unsafe movements and take adequate precautions during exercises. Also, physiotherapists should explain and supervise each exercise execution specifying how to perform it correctly. At the end of each session, physiotherapists give feedback to patients and register important observations on a form. Moreover, auxiliary staff assist physiotherapists supervising and instructing patients. The decision to include a Playtherapy mini-game in a therapy session relies mainly on physiotherapists' criteria based on evaluation and re-evaluation results.
+A therapy session takes one hour and comprises warm-up, cool-down and main therapeutic exercises, which are planned by a physiotherapist. In the first session, physiotherapists instruct patients to maintain a correct posture, avoid unsafe movements and take adequate precautions during exercises. Also, physiotherapists should explain and supervise each exercise execution specifying how to perform it correctly. At the end of each session, physiotherapists give feedback to patients and register observations on a form. Moreover, auxiliary staff assist physiotherapists supervising and instructing patients. The decision to include a Playtherapy mini \ac{PREG} in a therapy session relies mainly on physiotherapists' criteria based on evaluation and re-evaluation results.
 
-Playtherapy would be used in the Physical medicine and rehabilitation unit of the hospital. It has different facilities including a walk training area, a gym, a physical agents area, children area and adults area. Some of these places are usually crowded; thus, the location to use Playtherapy should be selected carefully. The unit is trying to provide two rooms to be used exclusively for playing Playtherapy.
+Playtherapy would be used in the Physical medicine and rehabilitation unit of the hospital, which has different facilities including a walk training area, a gym, a physical agents area, children area and adults area. Some of these places are usually crowded; thus, the location to use Playtherapy should be selected carefully. The Physical medicine and rehabilitation unit is trying to provide two rooms to be used exclusively for playing Playtherapy.
 
 Also, we identified internal regulations and constraints which are important to conduct an evaluation successfully. We need the approval of the head of the physical medicine and rehabilitation unit and the ethical committee of the hospital. A physiotherapist will be in charge of internal processes and logistics such as location, date, time, hospital participants and health instruments when needed. We should provide and coordinate the technical logistics. When an evaluation requires patients' participation, we should inform the physiotherapist at least four weeks in advance to arrange an appointment; otherwise, two weeks in advance would be enough. Finally, for long-term evaluations involving patients, we need the approval of the technical committee of the physical medicine and rehabilitation unit.
 
 \subsubsection{Physiotherapists}
-About \emph{physiotherapists profile and expectations}, they expressed that they feel confident using technologies since they are used to interact with smart-phones, computers and tablets. One of them has played exergames with Kinect One and Nintendo Wii. Another physiotherapist considered herself a casual player. The physiotherapists remarked that they are in charge of deciding what a patient can do in a therapy session since they are responsible for patients' safety. The physiotherapists expect Playtherapy to add variety and dynamism to the therapies they conduct, aid patients to reach the rehabilitation goals, motivate patients to perform the expected rehabilitation movements while reaching game goals, provide patients with information about goals, performance and progress. Moreover, they require Playtherapy to be an assisting tool that can be configurable to patients' needs and preferences (to assure patients' safety) and offer the possibility to work on particular joints and movements. They do not want Playtherapy to increase their workload. \autoref{fig:physio_personas} presents the two persona models that we built based on collected information.
+About \emph{physiotherapists profile and expectations}, they expressed that they feel confident using technologies since they interact with smart-phones, computers and tablets. One of them has played exergames with Kinect One and Nintendo Wii. Another physiotherapist considered herself a casual player. The physiotherapists remarked that they are in charge of deciding what a patient can do in a therapy session since they are responsible for patients' safety. The physiotherapists expect Playtherapy to add variety and dynamism to the therapy, aid patients to reach the rehabilitation goals, motivate patients to perform the expected rehabilitation movements while reaching game goals, provide patients with information about goals, performance and progress. Moreover, they require Playtherapy to be an assisting tool that can be configurable to patients' needs and preferences (to assure patients' safety) and offer the possibility to work on particular joints and movements. They do not want Playtherapy to increase their workload. \autoref{fig:physio_personas} presents the two persona models that we built based on collected information.
 
 \begin{figure}[bth]
 \centering
@@ -99,42 +99,63 @@ About \emph{physiotherapists profile and expectations}, they expressed that they
 \end{figure}
 
 \subsection{Player/Patient}
-Following the proposed model \autoref{sec:rel_among_dimension}, we identified characteristics, motivations and expectations of patients of the hospital to build Persona models (See \autoref{fig:patient_personas}). We use the following guiding questions to collect the data:
+Following the proposed model \autoref{sec:rel_among_dimensions}, we identified characteristics, motivations and expectations of patients of the hospital to build Persona models (See \autoref{fig:patient_personas}). We use the following guiding questions to collect the data:
 
 \begin{enumerate}
     \item What kind of patients do participate in physical therapy?
-    \item How is patients' motivation towards physical therapy?
-    \item What factors affect patients' motivation towards physical therapy?
+    \item What are the motivations and expectations of patients regarding their rehabilitation treatments?
 \end{enumerate}
 
 Specific information about \textit{game activity}, \textit{health status} and \textit{previous experiences} of players is collected before conducting any evaluation of \emph{Interaction} that involves patients (See \autoref{sec:eval_int_eff_participants}).
 
 \subsubsection{Characteristics}
-The physiotherapists expressed that patients who require physical therapies have musculoskeletal, cardiopulmonary and neuromuscular impairments including lower and upper limbs fracture or traumas, cerebral palsy, joint dislocation and stroke. In the case of Playtherapy, it would be targeted at musculoskeletal patients since they require active exercises. Chronic patients are those who have a very limited range of motion of one or more joints.
+The physiotherapists expressed that patients who require physical therapy have musculoskeletal, cardiopulmonary and neuromuscular impairments including lower and upper limbs fracture or traumas, cerebral palsy, joint dislocation and stroke. In the case of Playtherapy, it would be targeted at musculoskeletal patients since they require active exercises. Chronic patients are those who have a very limited range of motion of one or more joints.
 
-Regarding age, the physical medicine and rehabilitation unit of the hospital treats children whose age range from 5 to 12 years. However, most patients are over the age of eleven. Also, young patients (13 - 17 years), young adult patients (18 - 35 years), adults (36 - 60 years) and elderly patients (older than 60 years) are treated.
+The collected demographic characteristics of patients are presented in \autoref{tab:demographic_chars_patients}. The presented information is based on interviewees' estimations. Additional remarks about that information include:
 
-Most children who are treated at the unit are attending primary school. Most young patients have finished primary school and attend secondary school, though, some of them quit before finishing it since they start working. Most young adults have finished secondary school or are finishing it. Some of them have completed a technical career. Most adult and elderly patients have finished at most primary school. Few of the adults have finished secondary school.
+\begin{itemize}
+    \item Most patients are over the age of eleven.
+    \item Some teenagers quit before finishing secondary school since they decide to start working.
+    \item Some young adults reach a technical career degree.
+    \item All patients belong to the working class; i.e., one, two and three Colombian social strata.
+\end{itemize}
 
-Most children who are treated at the unit are attending primary school. Most young patients have finished primary school and attend secondary school, though, some of them quit before finishing it since they start working. Most young adults have finished secondary school or are finishing it. Some of them have completed a technical career. Most adult and elderly patients have at most finished primary school. Few of the adults have finished secondary school.
+\begin{table}[bth]
+\caption{Demographic characteristics of patients treated at physical medicine and rehabilitation unit of the hospital}
+\myfloatalign
+\resizebox{\linewidth}{!}{
+\begin{tabular}{llll}
+%----------------------
+\toprule
+\spacedlowsmallcaps{Type of patient}
+&\spacedlowsmallcaps{Age range}
+&\spacedlowsmallcaps{Academic level}
+&\spacedlowsmallcaps{Gender representation}\\\midrule
+Children & 5 - 12 & Primary school  & Proportional\\\midrule
+Teenagers & 13 - 17 & Secondary school & Mainly male\\\midrule
+Young adults & 18 - 35  & Secondary school & Mainly male\\\midrule
+Adults & 36 - 60 & Primary school & Mainly female\\\midrule
+Elderly adults & +60 & Primary school & Mainly female\\
+\bottomrule
+\end{tabular}}
+\label{tab:demographic_chars_patients}
+\end{table}
 
-The unit treats female and male children proportionally. Young and young adult patients are mainly male. Meanwhile, adult and elderly patients are mostly female. All patients belong to the lower or working classes; i.e., one, two and three Colombian social strata.
-
-Regarding patients' disposition during therapy, the physiotherapists commented that children and young patients are willing to work during the therapy sessions and understand what they should do easily. Young adults and adults do not like reading and prefer visual aids. Finally, physiotherapists should monitor elderly patients closely since they have comprehension difficulties and get confused with the instructions easily.
+Regarding patients' disposition during therapy, the physiotherapists commented that children and teenagers are willing to work during the therapy sessions and understand what they should do easily. Young adults and adults do not like reading and prefer visual aids. Finally, physiotherapists should monitor elderly patients closely since they have comprehension difficulties and get easily confused with the instructions.
 
 \subsubsection{Motivations and expectations}
 
-The physiotherapists remarked that patients' highest expectation is to finish a therapy as soon as possible. Other expectations include knowing the expected duration of their therapies and getting information about their impairment.
+The physiotherapists remarked that patients' highest expectation is to finish a therapy as soon as possible. Other expectations include knowing the expected duration of the treatment and getting information about the impairment.
 
-Regarding motivation towards a physical therapy, the physiotherapists highlighted that having an external reason to rehabilitate; e.g., to continue working or practising a sport, is a common source of motivation for patients. Also, patients get motivated when they feel that they are progressing in their rehabilitation goals; in that case, they start requesting more challenging activities and working independently at home to achieve more progress.
+Regarding motivation towards a physical therapy, the physiotherapists highlighted that having an external reason to rehabilitate; e.g., to continue working or practising a sport, is a common source of motivation for patients. Also, patients get motivated when they feel that they are progressing in the rehabilitation goals; in that case, request more challenging activities and work independently at home to achieve more progress.
 
-On the other side, the physiotherapists said that patients find physical exercises repetitive and monotone, which leads to a lack of motivation. Physiotherapists address that by including new activities, increasing exercises difficulty, including physical objects, among others. They highlighted that those activities rely on the creativity of the physiotherapist who is leading a treatment.
+On the other side, the physiotherapists said that patients find physical exercises repetitive and monotone, which leads to a lack of motivation. Physiotherapists address lack of motivation by including new activities, increasing exercises difficulty, including physical objects, among others. They highlighted that those activities rely on the creativity of the physiotherapist who is leading a treatment.
 
-Additionally, patients have different sources of motivation depending on their age. Children are motivated by playful activities and visual aids: They want variety and find boring to focus on one activity; thus, physiotherapists should be very recursive. Meanwhile, young patients enjoy talking about trends and topics that they find interesting. They also like didactic material. Regarding young adults and adults, they prefer group activities over working individually such as sports or yoga classes.
+Additionally, patients have different sources of motivation depending on age. Children are motivated by playful activities and visual aids: They want variety and find boring to focus on one activity; thus, physiotherapists should be very recursive. Meanwhile, teenagers enjoy talking about trends and topics that they find interesting. They also like didactic material. Regarding young adults and adults, they prefer group activities over working individually such as sports or yoga classes.
 
 \begin{figure}[tbh]
 \centering
- \subfloat[Young patient]{
+ \subfloat[Teenager patient]{
    \includegraphics[width=0.48\linewidth, frame]{gfx/playtherapy/young_Persona}
    \label{fig:young_persona}
  }
@@ -146,7 +167,7 @@ Additionally, patients have different sources of motivation depending on their a
    \includegraphics[width=0.48\linewidth, frame]{gfx/playtherapy/adult_Persona}
    \label{fig:adult_Persona}
 }
-\subfloat[Old patient]{
+\subfloat[Elderly adult patient]{
    \includegraphics[width=0.48\linewidth, frame]{gfx/playtherapy/old_Persona}
    \label{fig:old_Persona}
 }
@@ -157,17 +178,17 @@ Additionally, patients have different sources of motivation depending on their a
 \subsection{Game system}
 
 \subsubsection{General prerequisites}
-Playtherapy is a collection of mini \acp{PREG} whose purpose is to increase patients' motivation towards completing their physical rehabilitation therapies. Playtherapy is being developed by the Multimedia and Computer Vision research group from \textit{Universidad del Valle} in collaboration with the Physical Medicine and Rehabilitation Unit of the Evaristo Garc\'ia University Hospital from Cali Colombia. 
+Playtherapy is a collection of mini \acp{PREG} with the purpose of increasing patients' motivation towards completing physical rehabilitation therapy. Playtherapy is developed by the Multimedia and Computer Vision research group from \textit{Universidad del Valle} in collaboration with the Physical Medicine and Rehabilitation Unit of the Evaristo Garc\'ia University Hospital from Cali Colombia. 
 
-Playtherapy's mini \acp{PREG} are designed to assist patients to recover motion of particular joints, thereby being oriented to movements rather than impairments. It is a generic tool that may be used with patients having different impairments. As a consequence, two key elements of Playtherapy are the number of mini-games it contains and the coverage of joints it supports.
+Playtherapy's mini \acp{PREG} are designed to assist patients to recover motion of particular joints, thereby being oriented to movements rather than impairments. It is a generic tool that may be used with patients having different impairments. As a consequence, two key elements of Playtherapy are the number of mini \acp{PREG} and the coverage of joints.
 
-Playtherapy is being developed following an iterative and incremental methodology, which is appropriate for game development. The methodology is called Game-Scrum and consists in developing digital games using SCRUM agile practices along three stages: pre-production, production and post-production \autocite{godoy2010game}.
+Playtherapy is developed following an iterative and incremental methodology, which is appropriate for game development. The methodology is called Game-Scrum and consists in developing digital games using SCRUM agile practices along three stages: pre-production, production and post-production \autocite{godoy2010game}.
 
-During \emph{pre-production} developers define an initial and general idea for the game, it comprises, among other aspects, its characteristics, rules, controls, art and sound. Developers perform activities such as brainstorming, prototype development, game sessions and technologies exploration are performed. The outcome of this stage is a \ac{GDD}. Then, in \emph{production} stage, developers define the game's \textit{product backlog} using the \ac{GDD} of the previous stage as input. This phase progresses following the roles, artefacts and meetings of SCRUM \autocite{keith_agile_2010}. Finally, \emph{post-production} includes evaluating the game being developed and the creation of a \textit{postmortem} to collect learned lessons that can be used in future projects.
+During \emph{pre-production} developers define an initial and general idea for the game, it comprises, among other aspects, characteristics, rules, controls, art and sound. Developers perform activities such as brainstorming, prototype development, game sessions and technologies exploration are performed. The outcome of this stage is a \ac{GDD}. Then, in \emph{production} stage, developers define the game's \textit{product backlog} using the \ac{GDD} of the previous stage as input. This phase progresses following the roles, artefacts and meetings of SCRUM \autocite{keith_agile_2010}. Finally, \emph{post-production} includes evaluating the developed game and the creation of a \textit{postmortem} to collect learned lessons that can be used in future projects.
 
-Each mini \ac{PREG}, including its thematic, main objectives, rules and mechanics were designed during weekly brainstorming sessions involving the participation of a physical therapy undergraduate student. Additionally, regular meetings with a group of physiotherapists from a local hospital were arranged, where continuous feedback was received to develop, validate and improve every implemented feature; so that the mini \acp{PREG} could meet both physiotherapists' and patients' needs.
+Each mini \ac{PREG}, including the thematic, main objectives, rules and mechanics were designed during weekly brainstorming sessions involving the participation of a physical therapy undergraduate student. Additionally, regular meetings with a group of physiotherapists from a local hospital were arranged, where continuous feedback was received to develop, validate and improve every implemented feature; thereby meeting physiotherapists' and patients' needs.
 
-Playtherapy is developed in an academic environment. The defined sprint length for the project is two weeks. As expected, a sprint planning, a sprint review and a retrospective meeting are performed every sprint. The development team is composed as follows:
+Playtherapy is developed in an academic environment. The defined sprint length for the project is two weeks. As expected, a planning, a review and a retrospective meeting are performed every sprint. The development team is composed as follows:
 \begin{itemize}
     \item \emph{System engineering undergraduate students}: they are responsible for the video game implementation; i.e., they develop every user story related to the project. Also, they are responsible for performing functional testing and adapt Playtherapy according to the results obtained after user acceptance tests and \ac{PX} evaluations performed with physiotherapists and patients. In the context of SCRUM methodology, those students play the role of development team members.
     \item \emph{Physiotherapy undergraduate student}: she is responsible for guiding the previous team in aspects related to the physical rehabilitation field. Further, she approves acceptance tests and participates in the validation of the employed technologies and mini \acp{PREG}. According to SCRUM, that student plays the role of a development team member.
@@ -178,11 +199,11 @@ Playtherapy is developed in an academic environment. The defined sprint length f
 All team members participate in generating ideas to design and implement each mini \ac{PREG}. The goal of having an interdisciplinary team is to explore different possibilities and validate their viability regarding physical rehabilitation needs and technology capabilities.
 
 \subsubsection{Characteristics of the mini \acp{PREG}}
-Playtherapy covers a set of rehabilitation movements and exercises using mini \acp{PREG} that support specific joint movements. Each mini \ac{PREG} is designed to be personalised by physiotherapists to adapt to patients' needs and offer a compelling and natural experience. A mini \ac{PREG} comprises a set of components, which were created to assist physiotherapists work and enhance patients' experience when interacting with a mini-game. These components are illustrated in \autoref{fig:mg_arch}.
+Playtherapy covers a set of rehabilitation movements and exercises using mini \acp{PREG} that support specific joint movements. Each mini \ac{PREG} is designed to be personalised by physiotherapists to adapt to patients' needs and offer a compelling and natural experience. A mini \ac{PREG} comprises a set of components, which were created to assist physiotherapists work and enhance patients' experience when interacting with a mini \ac{PREG}. These components are illustrated in \autoref{fig:mg_arch}.
 
-The \emph{GUI} component is composed of the screens that each mini \ac{PREG} has. Each screen was created following a standardised design pattern and usability guidelines related to colour and elements distribution. There are three main screens. First, the \emph{parameters screen} which allows physiotherapists to set up a mini \ac{PREG} before it starts to adapt the game session to patients' particular needs (See \autoref{fig:parameters_screen}). A mini \ac{PREG} is configurable through a set of parameters, such as movement angle thresholds, choosing between repetition based or session time-based session and enabling or disabling joints and exercises. Every parameter configuration was agreed on with the physiotherapists who supported the development process. Second, the \emph{tutorial screen} explains the game objectives, rules and mechanics (See \autoref{fig:tutorial_screen}). Additionally, the tutorial includes visual representations of the movements that a player/patient has to perform, which allows therapists and patients to understand how to play and interact with the game. Finally, the \emph{results screen} shows the performance obtained by a player/patient along with visual feedback after a game session (See \autoref{fig:results_screen}). The visual feedback is always positive since Playtherapy is a game intended to motivate and distract players/patients from their environment. Therefore, players/patients always receive a reward disregarding how well they perform.
-    
-The \emph{world} component comprises the elements related to the mini \ac{PREG} environment. These elements are mainly 3D models and materials that make up the background objects and interaction elements of the mini \ac{PREG} (See \autoref{fig:world_screen}). This world comprises the elements. First, the \emph{game scenario} includes all the background elements that constitute the world of the game, such as terrains, background nature and buildings, skyboxes, and any other non-interactive game objects. Second, the \emph{interaction elements} comprise specific objects that players interact with by performing different movements and exercises associated with the mini \ac{PREG}. Third, \emph{feedback effects} are triggered to help players/patients be conscious of the outcomes of their actions. Fourth, the \emph{final animation} indicates players/patients that a mini-game session has ended. The goal of this component is to provide a smooth and compelling transition from the game end and the Results Screen. This transition was denominated the Final Animation and consists in a sequence of game objects behaviours that dynamically and graphically illustrate the end of a game session.
+The \emph{GUI} component is composed of the screens that each mini \ac{PREG} has. Each screen was created following a standardised design pattern and usability guidelines related to colour and elements distribution. There are three main screens. First, the \emph{parameters screen} which allows physiotherapists to set up a mini \ac{PREG} before it starts to adapt the game session to patients' particular needs (See \autoref{fig:parameters_screen}). A mini \ac{PREG} is configurable through a set of parameters, such as movement angle thresholds, choosing between repetition based or session time-based session and enabling or disabling joints and exercises. Every parameter configuration was agreed on with the physiotherapists who supported the development process. Second, the \emph{tutorial screen} explains the game objectives, rules and mechanics (See \autoref{fig:tutorial_screen}). Additionally, the tutorial includes visual representations of the movements that a player/patient has to perform, which allows therapists and patients to understand how to play and interact with the game. Finally, the \emph{results screen} shows the performance obtained by a player/patient along with visual feedback after a game session (See \autoref{fig:results_screen}). The visual feedback is always positive since Playtherapy is a game intended to motivate and distract players/patients from their environment. Therefore, players/patients always receive a reward regardless how well they perform.
+
+The \emph{world} component comprises the elements related to the mini \ac{PREG} environment. These elements are mainly 3D models and materials that make up the background objects and interaction elements of the mini \ac{PREG} (See \autoref{fig:world_screen}). This world comprises four elements: first, the \emph{game scenario} includes all the background elements that constitute the world of the game, such as terrains, background nature and buildings, skyboxes, and any other non-interactive game objects. Second, the \emph{interaction elements} comprise specific objects that players interact with by performing different movements and exercises associated with the mini \ac{PREG}. Third, \emph{feedback effects} are triggered to help players/patients be conscious of the outcomes of their actions. Fourth, the \emph{final animation} indicates players/patients that a mini \ac{PREG} session has ended. The goal of this component is to provide a smooth and compelling transition from the game end and the Results Screen.
 
 The elements of the \emph{logic} component are mainly scripts that define the different rules, mechanics and behaviours of the mini \acp{PREG}. Logic is structured as follows, a \emph{game manager} controls mini \ac{PREG}'s flow and state. It determines and controls when the game starts, pauses and ends. It also keeps track of the current score of a player, updating it according to each player movement. It controls the mini \ac{PREG} behaviour according to configured parameters signalling corresponding events and actions. A \emph{movement control} component communicates with tracking devices' APIs to get the required data, such as joint position and rotation. Then, it performs corresponding calculations to determine if a player has performed a certain movement or exercise. A \emph{persistence} component stores patients' performance based on the obtained score and range of motion progression. This information is used by a web application, that belongs to Playtherapy, to generate reports.
 
@@ -215,7 +236,7 @@ The elements of the \emph{logic} component are mainly scripts that define the di
 \label{fig:platherapy_screens}
 \end{figure}
 
-Playtherapy is composed of fourteen mini-games which are briefly described below. Moreover, a characterisation of one the mini \acp{PREG} is presented in \autoref{tab:beisbol_char}, it uses the approach presented in \autoref{sec:characterising}. The characterisation for all mini \acp{PREG} is available online\footnote{Playtherapy's mini \acp{PREG} characterisation: \url{https://goo.gl/uaxqWa}}.
+Playtherapy is composed of fourteen mini \acp{PREG} which are briefly described below. Moreover, a characterisation of one the mini \acp{PREG} is presented in \autoref{tab:beisbol_char}, it uses the approach presented in \autoref{sec:characterising}. The characterisation for all mini \acp{PREG} is available online\footnote{Playtherapy's mini \acp{PREG} characterisation: \url{https://goo.gl/uaxqWa}}.
 
 \begin{enumerate}
     \item \emph{Tiro Libre}: players perform kick movements to strike a ball against some targets placed in a goal. It should support right/left hip flexion and extension and lateral shifts.
@@ -237,6 +258,7 @@ Playtherapy is composed of fourteen mini-games which are briefly described below
 Playtherapy uses two \textit{input interaction devices}; the mini \acp{PREG} that involve wrist and fingers movements use the Leap Motion \autocite{leap:2017}. The other mini \acp{PREG} use Kinect 2\autocite{kinect:2013}.
 
 \begin{table}[bth]
+\caption{Characterisation of \textit{B\'eisbol} mini \ac{PREG}}
 \myfloatalign
 \resizebox{.9\linewidth}{!}{
 \begin{tabular}{p{5cm}p{10cm}}
@@ -256,38 +278,38 @@ Location & Physical medicine and rehabilitation unit of Evaristo Garc\'ia Univer
 Movements & Right/left shoulder abduction and/or extension, elbow flexion and extension\\\midrule
 Configuration parameters & Game mode, left/right shoulder selection, minimum angle and maximum angle per movement, radius (reformulated as Movement action radius), ball speed\\\midrule
 Rehabilitation goal(s) & Patient increases shoulder abduction or extension range of motion\\\midrule
-Health instruments & Goniometer\\\midrule
+Health instruments & Goniometer\\
 \bottomrule
 \end{tabular}}
-\caption{Characterisation of \textit{B\'eisbol} mini \ac{PREG}}
 \label{tab:beisbol_char}
 \end{table}
 
-Furthermore, Playtherapy has an accompanying web application composed of three main modules. The first module is concerned with patients and physiotherapists demographic data. The second module allows physiotherapists managing patients \ac{FIM}. Finally, the third module allows visualising mini-game sessions data; e.g., registered observations, progress over time and performance measurements, like the maximum range degree achieved per session. By the time this master project took place, this application was still under development and was not connected to Playtherapy; thus, it was not evaluated.
+Furthermore, Playtherapy has an accompanying web application composed of three main modules. The first module is concerned with patients and physiotherapists demographic data. The second module allows physiotherapists managing patients \ac{FIM}. Finally, the third module allows visualising mini \ac{PREG} sessions data; e.g., registered observations, progress over time and performance measurements, like the maximum range degree achieved per session. By the time this master project took place, this application was still under development and was not connected to Playtherapy; thus, it was not evaluated.
 
 \subsubsection{Rehabilitation support}
-As described in \autoref{sec:characterising} the rehabilitation support aspect comprises assessing movement support and configuration and personalisation capability. The goal of evaluating rehabilitation support is to assure that the evaluated \ac{PREG} can be used with patients safety. Before Playtherapy's mini \acp{PREG} that use Kinect were developed a feasibility study was conducted to identify the movements that were detected satisfactorily according to a group of physiotherapists. This study can be found in \autocite{Prado2018}. Similarly, a second study was conducted to identify acceptable hands movements detected by the Leap Motion \autocite{Lopez2017}.
-
+As described in \autoref{sec:characterising}, the goal of evaluating rehabilitation support is to assure that the evaluated \ac{PREG} can be used with patients safely. Before developing Playtherapy's the mini \acp{PREG} that use Kinect, a feasibility study was conducted to identify the movements that were detected satisfactorily according to a group of physiotherapists. This study can be found in \autocite{Prado2018}. Similarly, a second study was conducted to identify acceptable hands movements detected by the Leap Motion \autocite{Lopez2017}.
 
 We performed an \emph{internal evaluation} with two members of the development team, a physiotherapy student and a programmer, who conducted ten sessions of \ac{RITE} testing. The physiotherapy student tested all Playtherapy's mini \acp{PREG}. To assess \textit{configuration capability}, she tested each configuration parameter to assess whether it behaved as expected and was easy to understand. Moreover, she tested whether the expected \textit{movements were correctly mapped} and detected by each mini \ac{PREG}. Additionally, she evaluated the \textit{quality of the tutorials} assessing the content and the coverage of the associated movements regarding the game mechanics. When she identified an error or an enhancement, the programmer fixed it and the student test it again until it was correct.
 
-The results of the \ac{RITE} evaluation were mainly improvements related to the phrasing of configuration parameters and tutorial instructions. The student assessed their clarity from the physiotherapists' and patients' point of view. Similarly, she suggested to include graphics or animations to make the instructions and movements clearer. She configured the games considering different (ad-hoc) scenarios, exploring different game modes, including and excluding movements and modifying their difficulty. While testing each scenario, she also assessed the visibility of game objects and relevance of the visual and auditory feedback related to the game goals, leading to the inclusion of visual animations and sounds (e.g., to indicate the corresponding joint to execute a certain movement).
+The results of the \ac{RITE} evaluation were mainly improvements related to the phrasing of configuration parameters and tutorial instructions. She suggested to include graphics or animations to make the instructions and movements clearer. She configured the games considering different (ad-hoc) scenarios. While testing each scenario, she also assessed the visibility of game objects and relevance of the visual and auditory feedback. The results led to the inclusion of visual animations and sounds (e.g., to indicate the corresponding joint to execute a certain movement).
 
-After the internal evaluation, we conducted five evaluation sessions of one hour using the question asking protocol and involving one physiotherapist and on physiatrist of the hospital. The purpose of this evaluation stage was to validate the results of the evaluation conducted with the development team. Eight mini \acp{PREG} were tested in this evaluation; i.e., \textit{Béisbol, Defensa M\'agica, Tiro Libre, Guerra Medieval, F\'utbol Libre, Figuras Mágicas, Gran Viaje} and \textit{Vecinos Invasores}. The last eight of these mini \acp{PREG} had been tested by the physiotherapist; thus, fewer issues were identified for those.
+After the internal evaluation, we conducted five evaluation sessions of one hour using the question asking protocol and involving one physiotherapist and one physiatrist of the hospital. The purpose of this evaluation stage was to validate the results of the internal evaluation. Eight mini \acp{PREG} were tested in this evaluation; i.e., \textit{Béisbol, Defensa M\'agica, Tiro Libre, Guerra Medieval, F\'utbol Libre, Figuras Mágicas, Gran Viaje} and \textit{Vecinos Invasores}.
 
-The participants were asked to configure at least two game sessions for each mini \ac{PREG}. After configuring one game session, they played it to identify errors or improvements. The first configuration was suggested by the evaluator, and the others were proposed by the participants. During the whole process, they could express their thoughts and impressions loudly . The evaluator could ask questions when needed. We took notes of the findings during the evaluation.
+The participants were asked to configure at least two game sessions for each mini \ac{PREG}. After configuring one game session, they played it to identify errors or improvements. During the whole process, they could express their thoughts and impressions loudly. The evaluator could ask questions when needed. We took notes of the findings during the evaluation. 
 
-Initially, \textit{Béisbol} mini \ac{PREG} had a name in English (Baseball); however, the participants suggested to use the same name in Spanish due to the low level of patients' literacy. They expressed that understanding the game name was important to understand the game. Also, they remarked that game should indicate the patients where they should position the avatar before starting the game; they suggested to include a position mark and ask patients to move towards it. Moreover, they requested to rename one of the configuration parameters from \textit{Ratio} to \textit{Action ratio} (in Spanish) for understanding purposes. This parameter indicates the distance between the thrown ball and the patients' hands, depending on its value patients should stretch their arms or perform elbow flexion and extension movements. They suggested some rephrasing for the tutorial instructions. Regarding, movement mapping correctness, all movements were mapped correctly. However, they detected that a reduced shoulder abduction could be detected as shoulder extension. Finally, they suggested to include a visual mark indicating the position where patients should catch the balls to foster correct movement executions.
+In general, they suggested rephrasing or changing the texts used in the \acp{PREG}' configuration parameters and tutorial instructions. Moreover, they suggested including images or animations that explain movements clearly.
 
-Similarly, the participants suggested to rename \textit{Defensa M\'agica} since its original name was in English (Fight). Also, the game displayed some visual objects to determine whether the patient should perform elbow movements. However, this was not explained in the tutorial. Thus, they requested to include that information.
+Initially, \textit{Béisbol} mini \ac{PREG} had a name in English (Baseball); however, the participants suggested to use the same name in Spanish due to the low academic level of patients. Also, they suggested to include a position mark and ask patients to move towards it to ensure a correct initial positioning. Regarding, movement mapping correctness, they detected that a reduced shoulder abduction could be detected as shoulder extension. Finally, they suggested to include a visual mark indicating the position where patients should catch the balls to foster correct movement executions.
 
-About \textit{Tiro Libre}' parameters screen, the participants requested to use the term coronal plane instead of frontal plane for one of the parameters. Also, they suggested to group the \textit{Lateral shifts} and \textit{Frequency} parameters visually since they are related. Additionally, they noticed that a bar that represented the final height of a kicked ball was placed horizontally and suggested position it vertically. In the tutorial, they suggested changing the figures to differentiate lateral from frontal movements. Also, the dynamic help offered by the game was not explained in the tutorial.
+Similarly, the participants suggested to rename \textit{Defensa M\'agica} since its original name was in English (Fight). Also, the game displayed some visual objects to determine whether the patient should perform elbow movements. However, this was not explained in the tutorial; thus, they requested to include that information.
 
-Regarding \textit{Guerra Medieval}, the participants suggested to visually separate two excluding parameters. Also, the screen allowed to include pronation and supination movements, however, the game mechanics do no use them. Thus, they requested to remove them. Although the players control a virtual cannon in the game, they suggested to include virtual hands to help players be conscious of the movements they are performing. Also, they identified some typos in the tutorial and suggested to include more graphical aids and reduce the amount of text.
+About \textit{Tiro Libre}' parameters screen, the participants requested to use the term coronal plane instead of frontal plane for one of the parameters. Also, they suggested to group the \textit{Lateral shifts} and \textit{Frequency} parameters visually since they are related. Additionally, they suggested position a height indicator bar vertically.
 
-They detected that the performance measure presented by \textit{F\'utbol Libre} at the of a game session was calculated incorrectly. About the tutorial, they noticed that there was no back button to read previous instructions. Moreover, they requested some rephrasing and to modify the images to differentiate lateral from frontal movements. Regarding the parameters screen, they detected that changing the value of the \textit{Dynamic help} parameter caused no effects since the dynamic help was always presented.
+Regarding \textit{Guerra Medieval}, the participants suggested to visually separate two excluding parameters. Also, the screen allowed to include pronation and supination movement; however, the game mechanics do no use them. Thus, they requested to remove them. They suggested to include virtual hands to help players be conscious of the movements they are performing.
 
-About \textit{Figuras Mágicas}, the participants made some suggestions about the phrasing of the tutorial instructions. Moreover, when playing by repetitions in \textit{Gran Viaje}, the participants detected that the game requested players to execute more movements than expected. Meanwhile, they suggested some rephrasing to the tutorial of \textit{Vecinos Invasores}, and requested to remove the \textit{Pinch force} parameter since force cannot be measured by the game.
+They detected that the performance measure presented by \textit{F\'utbol Libre} at the of a game session was calculated incorrectly. About the tutorial, they noticed that there was no back button to read previous instructions. Regarding the parameters screen, they detected that changing the value of the \textit{Dynamic help} parameter caused no effects since the dynamic help was always presented.
+
+About \textit{Figuras Mágicas}, the participants detected that the game requested players to execute more movements than expected when playing the repetitions mode of \textit{Gran Viaje}. Meanwhile, they requested to remove the \textit{Pinch force} parameter in \textit{Vecinos Invasores} since force cannot be measured by the game.
 
 \section{Interaction and Effects}
 \label{sec:interaction_eval}
@@ -295,8 +317,8 @@ About \textit{Figuras Mágicas}, the participants made some suggestions about th
 Playtherapy has not been installed at the hospital; at the moment the logistics (e.g. location and people in charge of safekeeping) to use it are being defined. Thus, we could obtain preliminary results for the evaluation of \emph{Interaction} and \emph{Effects} moments of \ac{PX}. We performed a two-stage evaluation that involved a user-centred stage and a heuristic stage as presented in \autoref{tab:interactionEffectsEvaluation}.
 
 \begin{table}[bth]
-\myfloatalign
 \caption{Two-stages evaluation to assess the interaction and effects moments of \ac{PX} in Playtherapy}
+\myfloatalign
 \resizebox{\linewidth}{!}{
 \begin{tabular}{lp{6cm}p{4cm}p{5cm}}
 %----------------------
@@ -312,7 +334,7 @@ User-oriented
 Expert-oriented
 & Evaluate interaction and effects aspects in Playtherapy's mini \acp{PREG} quantitatively using the approach presented in \autocite{Sanchez2012}
 & Heuristic evaluation
-& \acp{PREG}'s functional characteristics, patients' processes and responses \\\midrule
+& \acp{PREG}'s functional characteristics, patients' processes and responses \\
 \bottomrule
 \end{tabular}}
 \label{tab:interactionEffectsEvaluation}
@@ -381,9 +403,10 @@ Moreover, the questions that we employ for the interview with the physiotherapis
 \subsubsection{Participants}
 \label{sec:eval_int_eff_participants}
 
-A total of sixteen people participated in the evaluation, nine men and seven women. They ranged in age from 19 years to 49 years ($M = 32.40, SD = 10.06$). One of the participants did not report his age. Verbal consent was obtained from them. A relation among the patients, the evaluated mini \acp{PREG} and the evaluation sessions is presented in \autoref{tab:participnats_interaction_eval}. Also, a reference to the report of each evaluation is included.
+A total of sixteen people participated in the evaluation, nine men and seven women. They ranged in age from 19 years to 49 years ($Mean = 32.40 \pm10.06$). One of the participants did not report his age. Verbal consent was obtained from them. A relation among the patients, the evaluated mini \acp{PREG} and the evaluation sessions is presented in \autoref{tab:participnats_interaction_eval}. Also, a reference to the report of each evaluation is included.
 
 \begin{table}[bth]
+\caption{Participants of the \ac{PX} evaluation sessions}
 \myfloatalign
 \resizebox{.9\linewidth}{!}{
 \begin{tabular}{lcl}
@@ -405,16 +428,39 @@ F\'utbol Libre \autocite{Loaiza2017} & 1 & 3 (26, M; 40, F; 49, M) \\\midrule
 B\'eisbol \autocite{Cortes2018} & \multirow{2}{*}{2} & \multirow{2}{*}{2 (47, F; 30, M)} \\
 Defensa M\'agica \autocite{Cortes2018} &  &  \\\midrule
 Guerra Medieval \autocite{Lopez2017b} & \multirow{2}{*}{2} & \multirow{2}{*}{2 (30, M; 47, F)} \\
-Viajando en el Espacio \autocite{Lopez2017b} &  &  \\\midrule
+Viajando en el Espacio \autocite{Lopez2017b} &  &  \\
 \bottomrule
 \end{tabular}}
-\caption{Participants of the \ac{PX} evaluation sessions}
 \label{tab:participnats_interaction_eval}
 \end{table}
 
-Additional information regarding \textit{health status} and \textit{gaming activity} was obtained for eight of the patients who participated in the evaluation, four men and four women. Their age ranged from 23 years to 49 years ($M = 33.38, SD = 10.39$). All patients needed to rehabilitate one or more body joints. Two patients were rehabilitating on of their knees, other two patients one of their shoulders, another one of his knees and feet, another one her hip, another one her spine, and the last one was treating muscular pain in her lower and upper limbs.
+Additional information regarding \textit{health status} and \textit{gaming activity} was obtained for eight of the patients who participated in the evaluation (See \autoref{tab:participnats_demographic}). 
 
-Four of the patients play digital games, one of them started playing less than 5 years ago, other two at least 6 years ago and the last patient more than ten years ago. Two of them play daily and the other two play weekly. Regarding their preferred platforms, one prefers arcade machines, other two PlayStation and the fourth one PlayStation, Xbox and arcade machines.
+\begin{table}[bth]
+\caption{Demographic information of 8 participants of the \ac{PX} evaluation sessions}
+\myfloatalign
+\resizebox{\linewidth}{!}{
+\begin{tabular}{ccclp{5cm}p{2cm}p{2.5cm}}
+\toprule
+\spacedlowsmallcaps{Patient}
+&\spacedlowsmallcaps{Age}
+&\spacedlowsmallcaps{Gender}
+& \spacedlowsmallcaps{Affected joint} 
+& \spacedlowsmallcaps{Preferred platform(s)}
+& \spacedlowsmallcaps{Years playing} 
+& \spacedlowsmallcaps{Gameplay frequency}\\\midrule
+1 & 23 & F & Knee & Arcade machines & < 5 & Daily\\\midrule
+2 & 26 & M & Lower-upper limbs & PlayStation & 6 - 10 & Daily\\\midrule
+3 & 26 & M & Knee and foot & PlayStation, XBox, Arcade machines & 6 - 10 & Weekly\\\midrule 
+4 & 30 & M & Shoulder & PlayStation & > 10 & Weekly\\\midrule
+5 & 26 & F & Spine & - & - & - \\\midrule
+6 & 40 & F & Knee and hip & - & - & - \\\midrule
+7 & 49 & M & Knee & - & - & - \\\midrule
+8 & 47 & F & Shoulder & - & - & - \\
+\bottomrule
+\end{tabular}}
+\label{tab:participnats_demographic}
+\end{table}
 
 \subsection{Context}
 
@@ -439,7 +485,7 @@ Although the patients were shy and provided very basic answers even when we trie
 
 \subsubsection{Cognitive and emotional gameplay processes}
 \subsubsection*{Audiovisual appeal}
-Patients evaluated the visual elements of Playtherapy's mini \acp{PREG} positively. They considered that the \ac{GUI} elements were clear and visible since the employed colours, fonts, controls (e.g. text fields, sliders, selectors and buttons) and panels were adequate (See \autoref{fig:platherapy_screens}). Also, patients claimed that the mini \acp{PREG}' low poly visual style was attractive.
+The patients evaluated the visual elements of Playtherapy's mini \acp{PREG} positively. They considered that the \ac{GUI} elements were clear and visible since the employed colours, fonts, controls (e.g. text fields, sliders, selectors and buttons) and panels were adequate (See \autoref{fig:platherapy_screens}). Also, they claimed that the mini \acp{PREG}' low poly visual style was attractive.
 
 Nonetheless, some suggestions for some mini \acp{PREG} resulted from the evaluations. Some patients suggested improving colour contrast in \textit{El Gran Viaje}, \textit{Figuras M\'agicas} and \textit{Rieles} due to visibility issues. For instance, two of the patients who played \textit{Figuras M\'agicas} were more concentrated on trying to identify the plane they should control rather than achieving the game goals.
 
@@ -464,6 +510,7 @@ Playtherapy's mini \acp{PREG} are of second degree of autonomy (i.e., these are 
 Therefore, we were interested in assessing the \textit{adaptation} capability through configuration. The parameter screen of twelve of the mini \acp{PREG} were evaluated using a predefined configuration (See \autoref{tab:configurations}). A physiotherapist received the expected configuration, then he/she had to configure a game session accordingly. As mentioned previously, their opinions were collected at the end of each evaluation session.
 
 \begin{table}[tbh]
+\caption{Configuration that physiotherapists use to test the configuration capability of each mini \ac{PREG}}
 \myfloatalign
 \resizebox{\linewidth}{!}{
 \begin{tabular}{lp{16cm}}
@@ -505,10 +552,9 @@ Cavano
 \\\midrule
 Dulce Hogar
 & Set up the game for 3 minutes, with a ulnar deviation of 20 and a radial deviation of 10
-\\\midrule
+\\
 \bottomrule
 \end{tabular}}
-\caption{Configuration that physiotherapists set up to test the configuration capability of each mini \ac{PREG}}
 \label{tab:configurations}
 \end{table}
 
@@ -554,6 +600,7 @@ The final scores are interpreted as follows:
 \end{itemize}
 
 \begin{table}[bth]
+\caption{Participants of the \ac{PX} evaluation sessions}
 \myfloatalign
 \begin{tabular}{ll}
 \toprule
@@ -572,14 +619,13 @@ F\'utbol Libre & Evaluator 2\\\midrule
 B\'eisbol & \multirow{2}{*}{Evaluator 2 and Evaluator 3} \\
 Defensa M\'agica  & \\\midrule
 Guerra Medieval & \multirow{2}{*}{Evaluator 3} \\
-Viajando en el Espacio & \\\midrule
+Viajando en el Espacio & \\
 \bottomrule
 \end{tabular}
-\caption{Participants of the \ac{PX} evaluation sessions}
 \label{tab:heuristic_evaluators}
 \end{table}
 
-The results of the heuristic evaluation were positive in general. As observed in \autoref{fig:playability_score} all mini \acp{PREG} achieved a global \textit{playability} score over $4.0$. The scores raged from $4.07$ to $4.81$ ($M = 4.53, SD = 0.19$). Nine ($60.00\%$) of the \acp{PREG} achieved an \textit{excellent} score and the rest ($40.00\%$) reached an \textit{acceptable} score. The results of all mini \acp{PREG} and a summary are available online\footnote{Heuristic evaluation results: \url{https://goo.gl/axds7s}}.
+The results of the heuristic evaluation were positive in general. As observed in \autoref{fig:playability_score} all mini \acp{PREG} achieved a global \textit{playability} score over $4.0$. The scores raged from $4.07$ to $4.81$ ($Mean = 4.53 \pm0.19$). Nine ($60.00\%$) of the \acp{PREG} achieved an \textit{excellent} score and the rest ($40.00\%$) reached an \textit{acceptable} score. Regarding the \textit{playability facets}, the obtained scores raged from $3.52$ to $5.00$ ($M = 4.53 \pm0.38$). About the \textit{playability attributes}, the minimum score was $3.04$ and the maximum was $4.95$ ($Mean = 4.50 \pm0.33$). \autoref{fig:playability_facets} and \autoref{fig:playability_attributtes}  present  the score of each mini \ac{PREG} for the facets and attributes respectively. Similarly, \autoref{tab:percentage_facets} and \autoref{tab:percentage_attributes} present the proportion of mini \acp{PREG} per score. The complete results for each mini \ac{PREG} are available online\footnote{Heuristic evaluation results: \url{https://goo.gl/axds7s}}.
 
 \begin{figure}[bth]
 \myfloatalign
@@ -588,7 +634,8 @@ The results of the heuristic evaluation were positive in general. As observed in
 \label{fig:playability_score}
 \end{figure}
 
-Regarding the \textit{playability facets} (See \autoref{fig:playability_facets}), the obtained scores raged from $3.52$ to $5.00$ ($M = 4.53, SD = 0.38$). Eleven mini \acp{PREG} ($78.57\%$) reached an \textit{excellent} score for the \textit{personal playability}, and the remaining three ($21.43\%$) achieved an \textit{acceptable} score. Similarly, ten mini \acp{PREG} ($71.43\%$) scored an \textit{Excellent} score for the \textit{artistic playability}, and the remaining four ($28.457\%$) achieved an \textit{acceptable} score. About the \textit{interactive playability}, eleven mini \acp{PREG} ($78.57\%$) reached an \textit{excellent}, two ($14.29\%$) scored as \textit{acceptable} and one ($7.14\%$) as \textit{medium}. The mini \ac{PREG} with the lowest interactive score ($3.52$) is \textit{Viajando en el Espacio}. The \textit{mechanic playability} was rated as follows, six mini \acp{PREG} ($42.86\%$) were rated as \textit{excellent}, six ($42.86\%$) as \textit{acceptable} and two ($14.29\%$) as \textit{medium}. The games with the lowest mechanic scores are \textit{Viajando en el Espacio} ($3.71$) and \textit{Cavano} ($3.74$). Finally, the \textit{intrinsic playability} was the lowest scored facet. Only three mini \acp{PREG} ($21.43\%$) were rated as \textit{excellent}, six as ($42.86\%$) \textit{acceptable} and five ($35.71\%$) as medium. Those games are \textit{Tiro Libre} ($3.99$), \textit{Viajando en el Espacio} ($3.95$), \textit{Guerra Medieval} ($3.89$), \textit{Topos} ($3.76$) and \textit{Piano} ($3.70$).
+
+%Eleven mini \acp{PREG} ($78.57\%$) reached an \textit{excellent} score for the \textit{personal playability}, and the remaining three ($21.43\%$) achieved an \textit{acceptable} score. Similarly, ten mini \acp{PREG} ($71.43\%$) scored an \textit{Excellent} score for the \textit{artistic playability}, and the remaining four ($28.457\%$) achieved an \textit{acceptable} score. About the \textit{interactive playability}, eleven mini \acp{PREG} ($78.57\%$) reached an \textit{excellent}, two ($14.29\%$) scored as \textit{acceptable} and one ($7.14\%$) as \textit{medium}. The mini \ac{PREG} with the lowest interactive score ($3.52$) is \textit{Viajando en el Espacio}. The \textit{mechanic playability} was rated as follows, six mini \acp{PREG} ($42.86\%$) were rated as \textit{excellent}, six ($42.86\%$) as \textit{acceptable} and two ($14.29\%$) as \textit{medium}. The games with the lowest mechanic scores are \textit{Viajando en el Espacio} ($3.71$) and \textit{Cavano} ($3.74$). Finally, the \textit{intrinsic playability} was the lowest scored facet. Only three mini \acp{PREG} ($21.43\%$) were rated as \textit{excellent}, six as ($42.86\%$) \textit{acceptable} and five ($35.71\%$) as medium. Those games are \textit{Tiro Libre} ($3.99$), \textit{Viajando en el Espacio} ($3.95$), \textit{Guerra Medieval} ($3.89$), \textit{Topos} ($3.76$) and \textit{Piano} ($3.70$).
 
 \begin{figure}[bth]
 \myfloatalign
@@ -597,7 +644,29 @@ Regarding the \textit{playability facets} (See \autoref{fig:playability_facets})
 \label{fig:playability_facets}
 \end{figure}
 
-About the \textit{playability attributes} (See \autoref{fig:playability_attributtes}), the scores minimum score was $3.04$ and the maximum was $4.95$ ($M = 4.50, SD = 0.33$). The mini \acp{PREG} were scored as follows. The best results were obtained for the \textit{immersion} attribute. Thirteen mini \acp{PREG} ($92.86\%$) were rated as \textit{excellent} and one ($7.14\%$) as \textit{acceptable}. Similarly, the \textit{emotion} attribute was scored as \textit{excellent} for twelve mini \acp{PREG} ($85.71\%$) and as \textit{acceptable} for the remaining two ($14.29\%$). \textit{Satisfaction} was rated as \textit{excellent} for eleven ($78.57\%$) mini \acp{PREG} and as \textit{acceptable} for the other three ($21.43\%$). The \textit{motivation} attribute was rated as \textit{excellent} for five mini \acp{PREG} ($35.71\%$), as \textit{acceptable} for seven ($50.00\%$), and as \textit{medium} for two mini \acp{PREG} ($14.29\%$), which are \textit{Dulce Hogar} ($3.97\%$) and \textit{Viajando en el Espacio} ($3.63\%$). Regarding \textit{learnability}, four mini \acp{PREG} ($28.57\%$) were rated as \textit{excellent}, nine ($64.29\%$) as \textit{acceptable} and one ($7.14\%$) as \textit{medium}. The lowest rated mini \ac{PREG} was \textit{Guerra Medieval} ($3.91$). Finally, two min \acp{PREG} ($14.29\%$) were rated as \textit{excellent}, nine ($64.29\%$) as \textit{acceptable} and one as \textit{medium}. The lowest score was for \textit{Viajando en el Espacio} ($3.04$).
+\begin{table}[bth]
+\caption{Percentage of mini \acp{PREG} that obtained each score for the playability facets}
+\myfloatalign
+\resizebox{\linewidth}{!}{
+\begin{tabular}{lp{2.1cm}p{2.1cm}p{2.1cm}p{2.1cm}p{2.1cm}p{2.1cm}}
+\toprule
+\multirow{2}{*}{\spacedlowsmallcaps{Score}}
+& \multicolumn{5}{c}{\spacedlowsmallcaps{Percentage of mini PREGs that reached the score}} \\\cline{2-6}
+& Intrinsic
+& Mechanical
+& Interactive
+& Artistic
+& Personal \\\midrule
+Excellent & 21,43\% & \textbf{42,86\%} & \textbf{78,57\%} & \textbf{71,43\%} & \textbf{78,57\%} \\
+Acceptable & \textbf{42,86\%} & 42,86\% & 14,29\% & 28,57\% & 21,43\% \\
+Medium & 35,71\% & 14,29\% & 7,14\% & 0,00\% & 0,00\% \\
+Critical & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\%\\
+\bottomrule
+\end{tabular}}
+\label{tab:percentage_facets}
+\end{table}
+
+%The mini \acp{PREG} were scored as follows. The best results were obtained for the \textit{immersion} attribute. Thirteen mini \acp{PREG} ($92.86\%$) were rated as \textit{excellent} and one ($7.14\%$) as \textit{acceptable}. Similarly, the \textit{emotion} attribute was scored as \textit{excellent} for twelve mini \acp{PREG} ($85.71\%$) and as \textit{acceptable} for the remaining two ($14.29\%$). \textit{Satisfaction} was rated as \textit{excellent} for eleven ($78.57\%$) mini \acp{PREG} and as \textit{acceptable} for the other three ($21.43\%$). The \textit{motivation} attribute was rated as \textit{excellent} for five mini \acp{PREG} ($35.71\%$), as \textit{acceptable} for seven ($50.00\%$), and as \textit{medium} for two mini \acp{PREG} ($14.29\%$), which are \textit{Dulce Hogar} ($3.97\%$) and \textit{Viajando en el Espacio} ($3.63\%$). Regarding \textit{learnability}, four mini \acp{PREG} ($28.57\%$) were rated as \textit{excellent}, nine ($64.29\%$) as \textit{acceptable} and one ($7.14\%$) as \textit{medium}. The lowest rated mini \ac{PREG} was \textit{Guerra Medieval} ($3.91$). Finally, two min \acp{PREG} ($14.29\%$) were rated as \textit{excellent}, nine ($64.29\%$) as \textit{acceptable} and one as \textit{medium}. The lowest score was for \textit{Viajando en el Espacio} ($3.04$).
 
 \begin{figure}[bth]
 \myfloatalign
@@ -605,6 +674,28 @@ About the \textit{playability attributes} (See \autoref{fig:playability_attribut
 \caption{Playability attributes scores of Playtherapy's mini \acp{PREG} obtained from the heuristic evaluation}
 \label{fig:playability_attributtes}
 \end{figure}
+
+\begin{table}[bth]
+\caption{Percentage of mini \acp{PREG} that obtained each score for the playability attributes}
+\myfloatalign
+\resizebox{\linewidth}{!}{
+\begin{tabular}{lllllll}
+\toprule
+\multirow{2}{*}{\spacedlowsmallcaps{Score}} & \multicolumn{6}{c}{\spacedlowsmallcaps{Percentage of mini PREGs that reached the score}} \\\cline{2-7}
+& Satisfaction
+& Learnability
+& Effectiveness
+& Immersion
+& Motivation
+& Emotion \\\midrule
+Excellent & \textbf{78,57\%} & 28,57\% & 14,29\% & \textbf{92,86\%} & 35,71\% & \textbf{85,71\%} \\
+Acceptable & 21,43\% & \textbf{64,29\%} & \textbf{78,57\%} & 7,14\% & \textbf{50,00\%} & 14,29\% \\
+Medium & 0,00\% & 7,14\% & 7,14\% & 0,00\% & 14,29\% & 0,00\% \\
+Critical & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\%\\
+\bottomrule
+\end{tabular}}
+\label{tab:percentage_attributes}
+\end{table}
 
 Although all the mini \acp{PREG} obtained a high global playability score, some aspects should be enhanced. Regarding the playability facets, the intrinsic one was the lowest rated. This facet is related to the gameplay design. Some of the selected heuristics require games to offer different mechanisms to interact and alternative or secondary goals. However, as stated previously, Playtherapy's mini \acp{PREG} have a quite simple design, in which complex interaction movements are not desired and gameplay time should be short (e.g., five to ten minutes) due to therapeutic reasons. The mini \acp{PREG} that provide more movement modes (e.g. \textit{El Gran Viaje} has two movement modes: trunk and lower limbs) rated the highest intrinsic score. The mechanical playability was the second lowest rated facet. In this context, some of the selected heuristics are related to players actions correction, game \ac{AI}, game elements interaction and save system. These aspects are desirable characteristics that are not implemented in Playtherapy's mini \acp{PREG} yet. Working on these aspects would improve Playtherapy playability.
 
@@ -666,4 +757,6 @@ Additional improvements for Playtherapy includes (i) adding a monitoring system 
 The evaluations that we conducted allowed us to assess the antecedents and, to some degree, the interaction and effects moments of \ac{PX} offered by Playtherapy. However, to assess Playtherapy comprehensively, more patients should be exposed to the mini \acp{PREG} along a whole rehabilitation treatment. This would require monitoring the use of Playtherapy, e.g, conducting a clinical trial.
 
 \section{Conclusion}
-This chapter presented a \ac{PX} evaluation of a collection of \acp{PREG} called Playtherapy. We employed the methodology that we proposed in \autoref{sec:methodology} to perform the evaluation. As suggested by the methodology, we performed an iterative evaluation to be able to cover all layers and moments of \ac{PX} according to the model that we proposed in \autoref{ch:model}. Our initial goal was to assess the quality of Playtherapy to assure patients safety. Therefore, we focused on aspects such as configuration and movement mapping correctness while conducting an evaluation with one physiotherapy student, one physiotherapist and one physiatrist. Then we conducted a user-oriented evaluation and a heuristic evaluation, to assess the interaction and effects moments. We need to continue performing more evaluation iterations to test long-term effects and validate the results regarding interaction. The case study allowed us to confirm that evaluating the three layers of abstraction and the three moments of \ac{PX} in \acp{PREG} represents a big challenge since it takes time and effort before a single layer or moment can be covered. Also, it suggested that the proposed \ac{PX} model may meet the evaluation requirements of \acp{PREG}.
+This chapter presented a \ac{PX} evaluation of a collection of \acp{PREG} called Playtherapy. We employed the methodology that we proposed in \autoref{sec:methodology} to perform the evaluation. As suggested by the methodology, we performed an iterative evaluation to be able to cover all layers and moments of \ac{PX} according to the model that we proposed in \autoref{ch:model}. Our initial goal was to assess the quality of Playtherapy to assure patients safety. Therefore, we focused on aspects such as configuration and movement mapping correctness while conducting an evaluation with one physiotherapy student, one physiotherapist and one physiatrist. Then, we conducted a user-oriented evaluation and a heuristic evaluation, to assess the interaction and effects moments. The results of the evaluations with end-users were positive in general. Both, the physiotherapists and patients expressed their motivation to continue playing Playtherapy. However, more evaluation iterations are needed to test long-term effects and validate the results regarding interaction. 
+
+The case study allowed us to confirm that evaluating the three layers of abstraction and the three moments of \ac{PX} in \acp{PREG} represents a big challenge since it takes time and effort before a single layer or moment can be covered. Also, it suggested that the proposed \ac{PX} model may meet the evaluation requirements of \acp{PREG}.
